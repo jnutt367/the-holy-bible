@@ -57,14 +57,17 @@
 .description {
     margin: 4rem 0;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    max-width: 60rem;
 }
 
 .code {
+    background-color: skyblue;
+    opacity: 0.7;
     border-radius: 5px;
     padding: 0.75rem;
     font-size: 1.1rem;
-    font-family: monospace;
+    font-family: fantasy;
 }
 
 .grid {
@@ -85,7 +88,7 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 300px;
-    font-family: monospace;
+    font-family: fantasy;
 }
 
 .card:hover,
@@ -93,7 +96,7 @@
 .card:active {
     color: hsl(14, 100%, 48%);
     border-color: hsl(14, 100%, 48%);
-    font-family: Menlo;
+    font-family: monospace;
 }
 
 .card h2 {
