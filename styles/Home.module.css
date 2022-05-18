@@ -62,7 +62,7 @@
 }
 
 .code {
-    background-color: skyblue;
+    background-color: transparent;
     opacity: 0.7;
     border-radius: 5px;
     padding: 0.75rem;
@@ -96,7 +96,9 @@
 .card:active {
     color: hsl(14, 100%, 48%);
     border-color: hsl(14, 100%, 48%);
-    font-family: monospace;
+    background-color: skyblue;
+    opacity: 0.85;
+    font-family: fantasy;
 }
 
 .card h2 {
