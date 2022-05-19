@@ -1,6 +1,6 @@
 .container {
     padding: 0 2rem;
-    background-image: url(/giphy-cloud.gif);
+    background-image: url(/jesus.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -127,7 +127,12 @@
 
 @media (max-width: 900px) {
     .container {
+        background-image: url(/jesus.gif);
         background-size: contain;
         background-repeat: repeat;
+    }
+    .code {
+        color: red;
+        text-decoration: underline;
     }
 }
