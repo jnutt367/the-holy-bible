@@ -94,9 +94,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: hsl(14, 100%, 48%);
+    color: white;
     border-color: hsl(14, 100%, 48%);
-    background-color: skyblue;
+    background-color: palevioletred;
     opacity: 0.85;
     font-family: fantasy;
 }
