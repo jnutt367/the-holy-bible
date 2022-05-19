@@ -21,18 +21,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://www.youtube.com/results?search_query=mark+bible+project" className={styles.card}>
+          <a href="https://youtu.be/HGHqu9-DtXk" className={styles.card}>
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
 
-          <a href="https://www.youtube.com/results?search_query=matthew+bible+project" className={styles.card}>
+          <a href="https://youtu.be/3Dv4-n6OYGI" className={styles.card}>
             <h2>Matthew &darr;</h2>
             <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
           </a>
 
           <a
-            href="https://www.youtube.com/results?search_query=john+the+bible+project"
+            href="https://youtu.be/G-2e9mMf7E8"
             className={styles.card}
           >
             <h2>John &darr;</h2>
@@ -40,7 +40,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.youtube.com/results?search_query=luke+the+bible+project"
+            href="https://youtu.be/XIb_dCIxzr0"
             className={styles.card}
           >
             <h2>Luke &darr;</h2>
