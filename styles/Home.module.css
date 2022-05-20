@@ -32,7 +32,7 @@
 }
 
 .title a {
-    color: hsl(14, 100%, 48%);
+    color: white;
     text-decoration: none;
 }
 
@@ -55,6 +55,7 @@
 }
 
 .description {
+    color: white;
     margin: 4rem 0;
     line-height: 1.5;
     font-size: 3rem;
@@ -66,7 +67,9 @@
     opacity: 0.7;
     border-radius: 5px;
     padding: 0.75rem;
-    font-size: 1.1rem;
+    color: black;
+    font-size: x-large;
+    text-decoration: underline;
     font-family: fantasy;
 }
 
@@ -132,7 +135,8 @@
         background-repeat: repeat;
     }
     .code {
-        color: red;
+        color: black;
+        font-size: x-large;
         text-decoration: underline;
     }
 }

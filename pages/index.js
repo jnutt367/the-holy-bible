@@ -15,11 +15,15 @@ export default function Home() {
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-
-        <p className={styles.description}>
-        <code className={styles.code}>The four canonical gospels are those of Matthew, Mark, Luke, and John. They share the same basic outline of the life of Jesus: he begins his public ministry in conjunction with that of John the Baptist, calls disciples, teaches and heals and confronts the Pharisees, dies on the cross, and is raised from the dead.</code>
+        <p className={styles.description}> 
+        <code className={styles.code}>
+          Coded, Committed, Pushed, Published & Deployed by His faithful servant, Jason Daniel Nutt.
+        </code>
         </p>
-
+        <p className={styles.description}>
+        <code className={styles.code}>Then a cloud appeared and covered them. And a voice came from the cloud. THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
+        </p>
+      
         <div className={styles.grid}>
           <a href="https://youtu.be/HGHqu9-DtXk" className={styles.card}>
             <h2>Mark &darr;</h2>
