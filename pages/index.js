@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <p className={styles.description}> 
         <code className={styles.code}>
-          Coded, Committed, Pushed, Published & Deployed by His faithful servant, Jason Daniel Nutt.
+          Coded, Published & Deployed by: Jason Daniel Nutt.
         </code>
         </p>
         <p className={styles.description}>
