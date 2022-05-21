@@ -31,13 +31,13 @@ export default function Home() {
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
 
-          <a href="https://youtu.be/3Dv4-n6OYGI" className={styles.card}>
+          <a href="https://matthew-coral.vercel.app/" className={styles.card}>
             <h2>Matthew &darr;</h2>
             <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
           </a>
 
           <a
-            href="https://youtu.be/G-2e9mMf7E8"
+            href=""
             className={styles.card}
           >
             <h2>John &darr;</h2>
@@ -45,7 +45,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://youtu.be/XIb_dCIxzr0"
+            href="https://luke-three.vercel.app/"
             className={styles.card}
           >
             <h2>Luke &darr;</h2>
