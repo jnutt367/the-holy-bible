@@ -15,6 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
+        <h2 className={styles.h2}>The New Covenant: a binding agreement</h2>
         <p className={styles.description}> 
         <code className={styles.publisher}>
           Coded, Published & Deployed by: Jason Daniel Nutt.
