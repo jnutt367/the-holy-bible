@@ -16,7 +16,7 @@ export default function Home() {
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
         <p className={styles.description}> 
-        <code className={styles.code}>
+        <code className={styles.publisher}>
           Coded, Published & Deployed by: Jason Daniel Nutt.
         </code>
         </p>
@@ -25,7 +25,7 @@ export default function Home() {
         </p>
       
         <div className={styles.grid}>
-          <a href="https://youtu.be/HGHqu9-DtXk" className={styles.card}>
+          <a href="https://mark.vercel.app" className={styles.card}>
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
