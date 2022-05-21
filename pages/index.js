@@ -25,7 +25,7 @@ export default function Home() {
         </p>
       
         <div className={styles.grid}>
-          <a href="https://mark.vercel.app" className={styles.card}>
+          <a href="https://mark-alpha.vercel.app/" className={styles.card}>
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
