@@ -37,7 +37,7 @@ export default function Home() {
           </a>
 
           <a
-            href=""
+            href="https://john-zeta.vercel.app/"
             className={styles.card}
           >
             <h2>John &darr;</h2>
