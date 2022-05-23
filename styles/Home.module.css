@@ -114,6 +114,7 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 300px;
+    opacity: 0.85;
     font-family: fantasy;
 }
 
@@ -123,8 +124,10 @@
     color: white;
     border-color: hsl(14, 100%, 48%);
     background-color: palevioletred;
-    opacity: 0.85;
+    opacity: 1;
     font-family: fantasy;
+    height: 500px;
+    width: 500px;
 }
 
 .card h2 {
