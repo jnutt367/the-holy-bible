@@ -15,19 +15,6 @@ export default function Home() {
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-        <h2 className={styles.h2}>The New Covenant: a binding agreement</h2>
-        <p className={styles.description}> 
-        <code className={styles.publisher}>
-          Coded, Published & Deployed by: Jason Daniel Nutt.
-        </code>
-        </p>
-        <p className={styles.description}> 
-        <code className={styles.publisher}>
-          Illustrations borrowed from the Bible Project
-        </code>
-        </p>
-
-
         <a href="https://bibleproject.com/downloads/posters/#load-posters-311">
         <Image className={styles.illustration}
           src="/NT_Overview.jpeg"
@@ -37,6 +24,16 @@ export default function Home() {
           width="900px"
         />
        </a>
+        <h2 className={styles.h2}>A New Testament: The four Gospels about Jesus Christ</h2>
+       
+        <p className={styles.description}> 
+        <code className={styles.publisher}>
+          Illustrations borrowed from the Bible Project
+        </code>
+        </p>
+
+
+       
         <p className={styles.description}>
         <code className={styles.code}>Then a cloud appeared and covered them. And a voice came from the cloud. THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
         </p>
@@ -107,9 +104,15 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <p className={styles.description}> 
+        <code className={styles.publisher}>
+          Coded, Published & Deployed by: Jason Daniel Nutt.
+        </code>
+        </p>
       </main>
 
       <footer className={styles.footer}>
+  
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
