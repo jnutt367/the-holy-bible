@@ -34,7 +34,7 @@ export default function Home() {
           alt="new testament illustration"
           layout="intrinsic"
           height="900px"
-          width="1600px"
+          width="900px"
         />
        </a>
         <p className={styles.description}>
