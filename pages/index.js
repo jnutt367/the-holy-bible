@@ -21,6 +21,19 @@ export default function Home() {
           Coded, Published & Deployed by: Jason Daniel Nutt.
         </code>
         </p>
+        <p className={styles.description}> 
+        <code className={styles.publisher}>
+          Illustrations borrowed from the Bible Project
+        </code>
+        </p>
+        <Image className={styles.illustartion}
+          src="/NT_Overview.jpeg"
+          alt="new testament illustration"
+          layout="intrinsic"
+          height="900px"
+          width="1000px"
+        />
+       
         <p className={styles.description}>
         <code className={styles.code}>Then a cloud appeared and covered them. And a voice came from the cloud. THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
         </p>
