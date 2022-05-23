@@ -39,16 +39,37 @@ export default function Home() {
         </p>
       
         <div className={styles.grid}>
+        <Image className={styles.card1}
+          src="/44-Mark.jpeg"
+          alt="new testament illustration"
+          layout="intrinsic"
+          height="300px"
+          width="300px"
+        />
+
           <a href="https://mark-alpha.vercel.app/" className={styles.card}>
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
+          <Image className={styles.card1}
+          src="/42-Matthew-FNL-1.jpeg"
+          alt="new testament illustration"
+          layout="intrinsic"
+          height="300px"
+          width="300px"
+        />
 
           <a href="https://matthew-coral.vercel.app/" className={styles.card}>
             <h2>Matthew &darr;</h2>
             <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
           </a>
-
+          <Image className={styles.card1}
+          src="/45-john.jpeg"
+          alt="new testament illustration"
+          layout="intrinsic"
+          height="300px"
+          width="300px"
+        />
           <a
             href="https://john-zeta.vercel.app/"
             className={styles.card}
@@ -56,7 +77,13 @@ export default function Home() {
             <h2>John &darr;</h2>
             <p>An eyewitness account of Jesus ministry, enriched by the authors understanding of Jewish traditions & knowledge of Palestine.</p>
           </a>
-
+          <Image className={styles.card1}
+          src="/48-Luke-FNL.jpeg"
+          alt="new testament illustration"
+          layout="intrinsic"
+          height="300px"
+          width="300px"
+        />
           <a
             href="https://luke-three.vercel.app/"
             className={styles.card}
