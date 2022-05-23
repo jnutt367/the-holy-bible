@@ -106,7 +106,7 @@ export default function Home() {
         </div>
         <p className={styles.description}> 
         <code className={styles.publisher}>
-          Coded, Published & Deployed by: Jason Daniel Nutt.
+        Coded, Published & Deployed by His servant: Jason Daniel Nutt 
         </code>
         </p>
       </main>
