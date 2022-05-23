@@ -26,14 +26,17 @@ export default function Home() {
           Illustrations borrowed from the Bible Project
         </code>
         </p>
-        <Image className={styles.illustartion}
+
+
+        <a href="https://bibleproject.com/downloads/posters/#load-posters-311">
+        <Image className={styles.illustration}
           src="/NT_Overview.jpeg"
           alt="new testament illustration"
           layout="intrinsic"
           height="900px"
           width="1600px"
         />
-       
+       </a>
         <p className={styles.description}>
         <code className={styles.code}>Then a cloud appeared and covered them. And a voice came from the cloud. THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
         </p>

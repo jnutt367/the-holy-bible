@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.illustration {
+    border-radius: 15px;
+}
+
 .footer {
     display: flex;
     flex: 1;
