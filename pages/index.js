@@ -24,7 +24,7 @@ export default function Home() {
           width="900px"
         />
        </a>
-        <h2 className={styles.h2}>A New Testament: The four Gospels about Jesus Christ</h2>
+       <h2 className={styles.h2}>A New Testament: Only the Gospels</h2>
        
         <p className={styles.description}> 
         <code className={styles.publisher}>
