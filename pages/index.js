@@ -33,11 +33,12 @@ export default function Home() {
         </p>
 
 
-       
+       <div className={styles.bg}>
         <p className={styles.description}>
-        <code className={styles.code}>Then a cloud appeared and covered them. And a voice came from the cloud. THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
+        <code className={styles.code}>NOONE LIGHTS A LAMP AND HIDES IT IN A CLAY JAR OR UNDER A BOWL, 
+        INSTEAD THEY PUT IT ON A STAND... SO THAT THOSE WHO COME IN CAN SEE THE LIGHT! FOR THERE IS NOTHING HIDDEN THAT WILL NOT BE DISCLOSED &rarr; THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
         </p>
-      
+        </div>
         <div className={styles.grid}>
         <a href="https://bibleproject.com/downloads/posters/#load-posters-250">
         <Image className={styles.card1}

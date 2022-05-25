@@ -66,12 +66,20 @@
     max-width: 60rem;
 }
 
+.bg {
+    background-color: black;
+    opacity: 0.5;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
 .code {
     background-color: transparent;
-    opacity: 0.7;
+    opacity: 1;
     border-radius: 5px;
     padding: 0.75rem;
-    color: black;
+    color: yellow;
     font-size: x-large;
     text-decoration: underline;
     font-family: fantasy;
@@ -101,9 +109,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: white;
-    border-color: hsl(14, 100%, 48%);
-    background-color: palevioletred;
+    color: rgb(179, 86, 171);
+    border-color: hsl(182, 100%, 48%);
+    background-image: url(/giphy-cloud.gif);
     opacity: 0.85;
     font-family: fantasy;
 }
@@ -127,7 +135,7 @@
 .card1:active {
     color: white;
     border-color: hsl(14, 100%, 48%);
-    background-color: palevioletred;
+    background-image: url(/giphy-cloud.gif);
     opacity: 1;
     font-family: fantasy;
     height: 500px;
@@ -173,7 +181,7 @@
 .h2:hover {
     color: black;
     border-color: hsl(14, 100%, 48%);
-    background-color: palevioletred;
+    background-image: url(/giphy-cloud.gif);
     opacity: 0.85;
     font-family: fantasy;
 }
@@ -192,7 +200,7 @@
         background-repeat: repeat;
     }
     .code {
-        color: black;
+        color: yellow;
         font-size: x-large;
         text-decoration: underline;
     }
