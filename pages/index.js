@@ -36,7 +36,7 @@ export default function Home() {
        <div className={styles.bg}>
         <p className={styles.description}>
         <code className={styles.code}>NOONE LIGHTS A LAMP AND HIDES IT IN A CLAY JAR OR UNDER A BOWL, 
-        INSTEAD THEY PUT IT ON A STAND... SO THAT THOSE WHO COME IN CAN SEE THE LIGHT! FOR THERE IS NOTHING HIDDEN THAT WILL NOT BE DISCLOSED &rarr; THIS IS MY SON, WHOM I LOVE, LISTEN TO HIM. </code>
+        INSTEAD THEY PUT IT ON A STAND... SO THAT THOSE WHO COME IN CAN SEE THE LIGHT!  </code>
         </p>
         </div>
         <div className={styles.grid}>
