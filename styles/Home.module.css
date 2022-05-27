@@ -1,8 +1,7 @@
 .container {
     padding: 0 2rem;
-    background-image: url(/jesus.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/gold.gif);
+    background-size: contain;
 }
 
 .main {
@@ -109,7 +108,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: rgb(179, 86, 171);
+    color: black;
     border-color: hsl(182, 100%, 48%);
     background-image: url(/giphy-cloud.gif);
     opacity: 0.85;
@@ -135,7 +134,7 @@
 .card1:active {
     color: white;
     border-color: hsl(14, 100%, 48%);
-    background-image: url(/giphy-cloud.gif);
+    background-image: url(/gold.gif);
     opacity: 1;
     font-family: fantasy;
     height: 500px;
@@ -161,7 +160,7 @@
 
 .publisher {
     font-family: monospace;
-    color: black;
+    color: white;
     font-size: 1.5rem;
 }
 
@@ -195,7 +194,7 @@
 
 @media (max-width: 900px) {
     .container {
-        background-image: url(/jesus.gif);
+        background-image: url(/gold.gif);
         background-size: contain;
         background-repeat: repeat;
     }
