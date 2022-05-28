@@ -53,7 +53,7 @@ export default function Home() {
           width="900px"
         />
        </a>
-       <h2 className={styles.h2}>A New Testament: Only the Gospels</h2>
+       <h2 className={styles.h2}>A New Testament: The 4 Gospels</h2>
        
         <p className={styles.description}> 
         <code className={styles.publisher}>
@@ -64,8 +64,7 @@ export default function Home() {
 
        <div className={styles.bg}>
         <p className={styles.description}>
-        <code className={styles.code}>NOONE LIGHTS A LAMP AND HIDES IT IN A CLAY JAR OR UNDER A BOWL, 
-        INSTEAD THEY PUT IT ON A STAND... SO THAT THOSE WHO COME IN CAN SEE THE LIGHT!  </code>
+        <code className={styles.code}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
         </p>
         </div>
         <div className={styles.grid}>

@@ -193,8 +193,9 @@
 }
 
 .h2:hover {
-    color: black;
-    border-color: hsl(14, 100%, 48%);
+    color: white;
+    font-family: cursive;
+    border-color: rgb(124, 187, 196);
     background-image: url(/gold.gif);
     opacity: 0.85;
     font-family: fantasy;
