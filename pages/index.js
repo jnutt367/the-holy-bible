@@ -71,9 +71,9 @@ export default function Home() {
         </p>
         </div>
         <div className={styles.grid}>
-        <a href="https://bibleproject.com/downloads/posters/#load-posters-250">
+        <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
         <Image className={styles.card1}
-          src="/44-Mark.jpeg"
+          src="/Jesus-Fish-Custom.svg"
           alt="new testament illustration"
           layout="intrinsic"
           height="300px"
