@@ -84,9 +84,9 @@ export default function Home() {
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
-          <a href="https://bibleproject.com/downloads/posters/#load-posters-249">
-          <Image className={styles.card1}
-          src="/42-Matthew-FNL-1.jpeg"
+          <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
+        <Image className={styles.card1}
+          src="/Jesus-Fish-Custom.svg"
           alt="new testament illustration"
           layout="intrinsic"
           height="300px"
@@ -97,9 +97,9 @@ export default function Home() {
             <h2>Matthew &darr;</h2>
             <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
           </a>
-          <a href="https://bibleproject.com/downloads/posters/#load-posters-251">
-          <Image className={styles.card1}
-          src="/45-john.jpeg"
+          <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
+        <Image className={styles.card1}
+          src="/Jesus-Fish-Custom.svg"
           alt="new testament illustration"
           layout="intrinsic"
           height="300px"
@@ -114,9 +114,9 @@ export default function Home() {
             <p>An eyewitness account of Jesus ministry, enriched by the authors understanding of Jewish traditions & knowledge of Palestine.</p>
           </a>
         
-          <a href="https://bibleproject.com/downloads/posters#load-posters-252"> 
-          <Image className={styles.card1}
-          src="/48-Luke-FNL.jpeg"
+          <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
+        <Image className={styles.card1}
+          src="/Jesus-Fish-Custom.svg"
           alt="new testament illustration"
           layout="intrinsic"
           height="300px"
