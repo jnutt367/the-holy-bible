@@ -44,15 +44,15 @@ export default function Home() {
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-        <a href="https://freesvg.org/jesus-christ-silhouette-low-poly-pattern">
-        <Image className={styles.illustration}
+        <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
+        <Image className={styles.card1}
           src="/Jesus-color-silhouette-low-poly-pattern.svg"
           alt="new testament illustration"
           layout="intrinsic"
-          height="900px"
-          width="900px"
+          height="300px"
+          width="300px"
         />
-       </a>
+        </a>
 
        <h2 className={styles.h2}>A New Testament: The 4 Gospels</h2>
        <a href="https://www.biblegateway.com/passage/?search=Proverbs%201&version=NIV">
