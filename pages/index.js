@@ -44,20 +44,23 @@ export default function Home() {
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-        <a href="https://bibleproject.com/downloads/posters/#load-posters-311">
+        <a href="https://freesvg.org/jesus-christ-silhouette-low-poly-pattern">
         <Image className={styles.illustration}
-          src="/NT_Overview.jpeg"
+          src="/Jesus-color-silhouette-low-poly-pattern.svg"
           alt="new testament illustration"
           layout="intrinsic"
           height="900px"
           width="900px"
         />
        </a>
+
        <h2 className={styles.h2}>A New Testament: The 4 Gospels</h2>
-       <h2 className={styles.h2}>Proverbs of King Solomon: For Understanding Parables & the Sayings & Riddles of the Wise</h2>
+       <a href="https://www.biblegateway.com/passage/?search=Proverbs%201&version=NIV">
+       <h2 className={styles.h2}>Proverbs: Insight into Parables & the Sayings & Riddles of the Wise</h2>
+       </a>
         <p className={styles.description}> 
         <code className={styles.publisher}>
-          Illustrations borrowed from the Bible Project
+          SVGs by FreeSVG.org Links included
         </code>
         </p>
 
