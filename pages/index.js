@@ -55,7 +55,7 @@ export default function Home() {
         </a>
 
        <h2 className={styles.h2}>A New Testament: The 4 Gospels</h2>
-       <a href="https://www.biblegateway.com/passage/?search=Proverbs%201&version=NIV">
+       <a href="https://proverbs.vercel.app/">
        <h2 className={styles.h2}>Proverbs: Insight into Parables & the Sayings & Riddles of the Wise</h2>
        </a>
         <p className={styles.description}> 
