@@ -234,6 +234,9 @@
         align-items: center;
         margin-left: -2rem;
     }
+    .card1 {
+        margin-right: 2rem;
+    }
     .code {
         font-size: 1rem;
         line-height: 1rem;
@@ -244,9 +247,8 @@
         max-height: 400px;
     }
     .card {
-        height: 300px;
-        overflow: scroll;
-        width: 100%;
+        width: 300px;
+        margin-left: -2.2rem;
     }
     .main {
         background-image: none;
