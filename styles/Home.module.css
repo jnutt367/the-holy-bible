@@ -2,6 +2,7 @@
     padding: 0 3rem;
     background-color: black;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .nav ul {
@@ -17,6 +18,9 @@
 
 .main {
     background-image: url(/gold.gif);
+    border-radius: 15px;
+    background-repeat: repeat;
+    background-size: contain;
     min-height: 100vh;
     padding: 1rem 0;
     flex: 1;
@@ -60,6 +64,7 @@
 .title {
     line-height: 1.15;
     font-size: 4rem;
+    padding: 2rem;
     font-family: cursive;
 }
 
