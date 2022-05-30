@@ -243,4 +243,10 @@
         margin-top: 2rem;
         max-height: 400px;
     }
+    .main {
+        background-image: none;
+    }
+    .container {
+        background-image: url(/gold.gif);
+    }
 }
