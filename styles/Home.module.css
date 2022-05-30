@@ -210,7 +210,6 @@
 
 @media (max-width: 900px) {
     .container {
-        background-image: url(/gold.gif);
         background-size: contain;
         background-repeat: repeat;
     }
