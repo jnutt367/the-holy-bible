@@ -1,10 +1,11 @@
 .container {
     padding: 0 2rem;
-    background-image: url(/gold.gif);
+    background-color: black;
     background-size: contain;
 }
 
 .main {
+    background-image: url(/gold.gif);
     min-height: 100vh;
     padding: 4rem 0;
     flex: 1;
@@ -12,6 +13,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.links {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+    font-family: fantasy;
+}
+
+.links:hover {
+    color: white;
+    border-color: hsl(14, 100%, 48%);
+    background-image: url(/gold.gif);
+    opacity: 0.85;
+    font-family: fantasy;
 }
 
 .footer {
@@ -45,7 +67,7 @@
     margin: 2rem;
     line-height: 1.15;
     font-size: 4rem;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .title,
@@ -60,9 +82,9 @@
 }
 
 .code {
-    background: #fafafa;
     border-radius: 5px;
-    padding: 0.75rem;
+    color: gold;
+    padding: 3rem;
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -110,9 +132,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: black;
+    color: white;
     border-color: hsl(212, 100%, 48%);
-    background-image: url(/giphy-cloud.gif);
+    background-image: url(/gold.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -124,7 +146,7 @@
 .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .card h2:hover {
@@ -159,7 +181,7 @@
 
 @media (max-width: 769px) {
     .nav ul {
-        display: flex;
+        display: none;
         color: #fafafa;
         justify-content: center;
         flex-direction: column;
