@@ -65,11 +65,11 @@ export default function Home() {
         </p>
 
 
-       <div className={styles.bg}>
-        <p className={styles.description}>
+     
+       
         <code className={styles.code}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
-        </p>
-        </div>
+      
+        
         <div className={styles.grid}>
         <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
         <Image className={styles.card1}

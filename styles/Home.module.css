@@ -1,37 +1,17 @@
 .container {
-    padding: 0 3rem;
-    background-color: black;
+    padding: 0 2rem;
+    background-image: url(/gold.gif);
     background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.nav ul {
-    display: flex;
-    flex-basis: auto;
-    color: #fafafa;
-    justify-content: space-between;
-    list-style: none;
-    font-size: xx-large;
-    padding-top: 3rem;
-    font-family: cursive;
 }
 
 .main {
-    background-image: url(/gold.gif);
-    border-radius: 15px;
-    background-repeat: repeat;
-    background-size: contain;
     min-height: 100vh;
-    padding: 1rem 0;
+    padding: 4rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.illustration {
-    border-radius: 15px;
 }
 
 .footer {
@@ -62,9 +42,9 @@
 }
 
 .title {
+    margin: 2rem;
     line-height: 1.15;
     font-size: 4rem;
-    padding: 2rem;
     font-family: cursive;
 }
 
@@ -74,30 +54,28 @@
 }
 
 .description {
-    color: white;
     margin: 4rem 0;
     line-height: 1.5;
-    font-size: 3rem;
-    max-width: 60rem;
-}
-
-.bg {
-    background-color: black;
-    opacity: 0.5;
-    margin: 1rem;
-    padding: 2rem;
-    border-radius: 15px;
+    font-size: 1.5rem;
 }
 
 .code {
-    background-color: transparent;
-    opacity: 1;
+    background: #fafafa;
     border-radius: 5px;
     padding: 0.75rem;
-    color: yellow;
-    font-size: x-large;
-    text-decoration: underline;
-    font-family: fantasy;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.nav ul {
+    display: flex;
+    flex-basis: auto;
+    color: #fafafa;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+    padding-top: 3rem;
+    font-family: cursive;
 }
 
 .grid {
@@ -108,16 +86,24 @@
     max-width: 1400px;
 }
 
+.illustration {
+    padding-top: 3rem;
+    border-radius: 15px;
+    margin-right: 3rem;
+}
+
 .card {
-    margin: 3rem;
+    margin: 1rem;
     padding: 1.5rem;
     text-align: left;
     color: inherit;
+    max-height: 300px;
+    overflow: scroll;
     text-decoration: none;
     border: 1px solid #eaeaea;
     border-radius: 10px;
-    max-width: 300px;
     transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
     font-family: fantasy;
 }
 
@@ -135,42 +121,22 @@
     font-family: fantasy;
 }
 
-.card1 {
-    margin: 1rem;
-    padding: 2.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    max-width: 300px;
-    opacity: 0.85;
-    font-family: fantasy;
-}
-
-.card1:hover,
-.card1:focus,
-.card1:active {
-    color: white;
-    border-color: hsl(14, 100%, 48%);
-    background-image: url(/gold.gif);
-    opacity: 1;
-    font-family: fantasy;
-    height: 500px;
-    width: 500px;
-}
-
 .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
     font-family: cursive;
 }
 
+.card h2:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 .card p {
     margin: 0;
     font-size: 1.25rem;
     line-height: 1.5;
+    font-family: monospace;
 }
 
 .logo {
@@ -184,44 +150,10 @@
     font-size: 1.5rem;
 }
 
-.h2 {
-    margin-top: 3rem;
-    padding: 1.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    max-width: 300px;
-    font-family: fantasy;
-}
-
-.h2:hover {
-    color: white;
-    font-family: cursive;
-    border-color: rgb(124, 187, 196);
-    background-image: url(/gold.gif);
-    opacity: 0.85;
-    font-family: fantasy;
-}
-
 @media (max-width: 600px) {
     .grid {
         width: 100%;
         flex-direction: column;
-    }
-}
-
-@media (max-width: 900px) {
-    .container {
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    .code {
-        color: yellow;
-        font-size: x-large;
-        text-decoration: underline;
     }
 }
 
@@ -233,27 +165,5 @@
         flex-direction: column;
         align-items: center;
         margin-left: -2rem;
-    }
-    .card1 {
-        margin-right: 2rem;
-    }
-    .code {
-        font-size: 1rem;
-        line-height: 1rem;
-        padding-bottom: 3rem;
-    }
-    .bg {
-        margin-top: 2rem;
-        max-height: 400px;
-    }
-    .card {
-        width: 300px;
-        margin-left: -2.2rem;
-    }
-    .main {
-        background-image: none;
-    }
-    .container {
-        background-image: url(/gold.gif);
     }
 }
