@@ -1,11 +1,11 @@
 .container {
     padding: 0 2rem;
     background-color: black;
-    background-size: contain;
 }
 
 .main {
     background-image: url(/gold.gif);
+    background-size: contain;
     min-height: 100vh;
     padding: 4rem 0;
     flex: 1;
