@@ -68,9 +68,6 @@ export default function Home() {
      
        
         <code className={styles.code}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
-      
-        
-        <div className={styles.grid}>
         <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
         <Image className={styles.card1}
           src="/Jesus-Fish-Custom.svg"
@@ -80,32 +77,19 @@ export default function Home() {
           width="300px"
         />
         </a>
+        
+        <div className={styles.grid}>
+      
           <a href="https://mark-alpha.vercel.app/" className={styles.card}>
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
           </a>
-          <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
-        <Image className={styles.card1}
-          src="/Jesus-Fish-Custom.svg"
-          alt="new testament illustration"
-          layout="intrinsic"
-          height="300px"
-          width="300px"
-        />
-        </a>
+        
           <a href="https://matthew-coral.vercel.app/" className={styles.card}>
             <h2>Matthew &darr;</h2>
             <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
           </a>
-          <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
-        <Image className={styles.card1}
-          src="/Jesus-Fish-Custom.svg"
-          alt="new testament illustration"
-          layout="intrinsic"
-          height="300px"
-          width="300px"
-        />
-        </a>
+         
           <a
             href="https://john-zeta.vercel.app/"
             className={styles.card}
@@ -114,15 +98,7 @@ export default function Home() {
             <p>An eyewitness account of Jesus ministry, enriched by the authors understanding of Jewish traditions & knowledge of Palestine.</p>
           </a>
         
-          <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
-        <Image className={styles.card1}
-          src="/Jesus-Fish-Custom.svg"
-          alt="new testament illustration"
-          layout="intrinsic"
-          height="300px"
-          width="300px"
-        />
-        </a>
+        
           <a
             href="https://luke-three.vercel.app/"
             className={styles.card}
@@ -136,6 +112,15 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
+        <Image className={styles.card1}
+          src="/Jesus-Fish-Custom.svg"
+          alt="new testament illustration"
+          layout="intrinsic"
+          height="300px"
+          width="300px"
+        />
+        </a>
         <p className={styles.description}> 
         <code className={styles.publisher}>
         Coded, Published & Deployed by His servant: Jason Daniel Nutt 
