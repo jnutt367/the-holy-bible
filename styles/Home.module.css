@@ -4,7 +4,7 @@
 }
 
 .main {
-    background-image: url(/gold.gif);
+    background-color: #eaeaea;
     background-size: contain;
     min-height: 100vh;
     padding: 4rem 0;
