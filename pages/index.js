@@ -58,12 +58,7 @@ export default function Home() {
        <a href="https://proverbs.vercel.app/">
        <h2 className={styles.links}>Proverbs: Insight into Parables & the Sayings & Riddles of the Wise</h2>
        </a>
-        <p className={styles.description}> 
-        <code className={styles.publisher}>
-          SVGs by FreeSVG.org Links included
-        </code>
-        </p>
-
+     
 
      
        

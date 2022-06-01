@@ -83,7 +83,8 @@
 
 .code {
     border-radius: 5px;
-    color: gold;
+    color: white;
+    background-image: url(/gold.gif);
     padding: 3rem;
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
