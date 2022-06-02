@@ -1,6 +1,7 @@
 .container {
     padding: 0 2rem;
     background-image: url(/gold.gif);
+    background-size: contain;
 }
 
 .main {
@@ -26,15 +27,15 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 300px;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .links:hover {
     color: white;
-    border-color: hsl(14, 100%, 48%);
+    border-color: hsl(197, 25%, 55%);
     background-image: url(/gold.gif);
     opacity: 0.85;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .footer {
@@ -170,7 +171,7 @@
 
 .publisher {
     font-family: monospace;
-    color: white;
+    color: black;
     font-size: 1.5rem;
 }
 
