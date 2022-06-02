@@ -1,6 +1,6 @@
 .container {
     padding: 0 2rem;
-    background-color: black;
+    background-image: url(/gold.gif);
 }
 
 .main {
@@ -128,7 +128,7 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 300px;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
 .card:hover,
@@ -142,7 +142,7 @@
     background-color: black;
     opacity: 0.85;
     overflow: scroll;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
 .card h2 {
