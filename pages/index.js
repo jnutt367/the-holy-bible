@@ -74,12 +74,14 @@ export default function Home() {
         </a>
         
         <div className={styles.grid}>
-      
+     
           <a href="https://mark-alpha.vercel.app/" className={styles.card}>
+        
             <h2>Mark &darr;</h2>
             <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
+           
           </a>
-        
+          
           <a href="https://matthew-coral.vercel.app/" className={styles.card}>
             <h2>Matthew &darr;</h2>
             <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>

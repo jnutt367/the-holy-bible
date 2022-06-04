@@ -1,11 +1,12 @@
 .container {
     padding: 0 2rem;
-    background-image: url(/gold.gif);
+    background-image: url(/cloud_lightning.webp);
     background-size: contain;
 }
 
 .main {
     background-color: #eaeaea;
+    background-size: contain;
     background-size: contain;
     min-height: 100vh;
     padding: 4rem 0;
@@ -31,9 +32,9 @@
 }
 
 .links:hover {
-    color: white;
+    color: black;
     border-color: hsl(197, 25%, 55%);
-    background-image: url(/gold.gif);
+    background-image: url(/cloud_lightning.webp);
     opacity: 0.85;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -55,7 +56,7 @@
 }
 
 .title a {
-    color: white;
+    color: rgba(214, 123, 20, 0.993);
     text-decoration: none;
 }
 
@@ -85,10 +86,11 @@
 
 .code {
     border-radius: 5px;
-    color: white;
-    background-image: url(/gold.gif);
+    color: black;
+    background-image: url(/cloud_lightning.webp);
     padding: 3rem;
     font-size: 1.1rem;
+    font-weight: 900;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
@@ -101,6 +103,11 @@
     font-size: xx-large;
     padding-top: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav ul:hover {
+    color: silver;
+    text-decoration: underline;
 }
 
 .grid {
@@ -135,13 +142,13 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: white;
+    color: black;
     border-color: hsl(212, 100%, 48%);
-    background-image: url(/gold.gif);
+    background-image: url(/cloud_lightning.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    opacity: 0.85;
+    opacity: 0.75;
     overflow: scroll;
     font-family: monospace;
 }
@@ -162,6 +169,11 @@
     font-size: 1.25rem;
     line-height: 1.5;
     font-family: monospace;
+}
+
+.card p:hover {
+    text-decoration: underline;
+    font-weight: 900;
 }
 
 .logo {
