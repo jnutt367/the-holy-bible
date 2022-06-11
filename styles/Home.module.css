@@ -27,16 +27,16 @@
     border: 1px solid #eaeaea;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .links:hover {
     color: black;
-    text-shadow: -5px -5px white;
+    text-shadow: 5px 5px white;
     border-color: hsl(197, 25%, 55%);
     background-image: url(/cloud_lightning.webp);
     opacity: 0.85;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .footer {
@@ -86,7 +86,7 @@
 
 .code {
     border-radius: 5px;
-    color: white;
+    color: black;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
     font-size: 1.1rem;
@@ -95,8 +95,8 @@
 }
 
 .code:hover {
-    color: white;
-    text-shadow: 5px 5px black;
+    color: black;
+    text-shadow: 5px 5px white;
 }
 
 .nav ul {
