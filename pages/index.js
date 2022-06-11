@@ -49,8 +49,8 @@ export default function Home() {
           src="/Jesus-color-silhouette-low-poly-pattern.svg"
           alt="new testament illustration"
           layout="intrinsic"
-          height="300px"
-          width="300px"
+          height="100px"
+          width="100px"
         />
         </a>
 
