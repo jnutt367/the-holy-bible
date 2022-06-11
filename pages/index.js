@@ -14,17 +14,17 @@ export default function Home() {
         <div>
           <nav className={styles.nav}>
               <ul>
-              <a href="https://mark-alpha.vercel.app/">
-                  <li>
-                    Mark
-                  </li>
-                </a>
+            
                 <a href="https://matthew-coral.vercel.app/">
                   <li>
                     Matthew
                   </li>
                 </a>
-               
+                <a href="https://mark-alpha.vercel.app/">
+                  <li>
+                    Mark
+                  </li>
+                </a>
                 <a href="https://luke-three.vercel.app/">
                 <li>
                   Luke
@@ -44,19 +44,19 @@ export default function Home() {
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-        <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
-        <Image className={styles.card1}
-          src="/Jesus-color-silhouette-low-poly-pattern.svg"
+  
+        <Image 
+          src="/WS_Gospel_Poster.jpeg"
           alt="new testament illustration"
           layout="intrinsic"
-          height="100px"
-          width="100px"
+          height="1000px"
+          width="1000px"
         />
-        </a>
+        
 
-       <h2 className={styles.links}>The 4 Gospels of Jesus Christ, the Messiah told by his apostles Mark, Matthew Luke & John</h2>
+       <h2 className={styles.links}>The 4 Gospels of Jesus Christ</h2>
        <a href="https://proverbs.vercel.app/">
-       <h2 className={styles.links}>Proverbs: Insight into Parables & the Sayings & Riddles of the Wise</h2>
+       <h2 className={styles.links}>Proverbs: Insight into Parables & Sayings of the Wise</h2>
        </a>
      
 
@@ -74,7 +74,10 @@ export default function Home() {
         </a>
         
         <div className={styles.grid}>
-     
+        <a href="https://matthew-coral.vercel.app/" className={styles.card}>
+            <h2>Matthew &darr;</h2>
+            <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
+          </a>
           <a href="https://mark-alpha.vercel.app/" className={styles.card}>
         
             <h2>Mark &darr;</h2>
@@ -82,19 +85,9 @@ export default function Home() {
            
           </a>
           
-          <a href="https://matthew-coral.vercel.app/" className={styles.card}>
-            <h2>Matthew &darr;</h2>
-            <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
-          </a>
+       
          
-          <a
-            href="https://john-zeta.vercel.app/"
-            className={styles.card}
-          >
-            <h2>John &darr;</h2>
-            <p>An eyewitness account of Jesus ministry, enriched by the authors understanding of Jewish traditions & knowledge of Palestine.</p>
-          </a>
-        
+         
         
           <a
             href="https://luke-three.vercel.app/"
@@ -108,6 +101,15 @@ export default function Home() {
             & his final week in Jerusalem 
             </p>
           </a>
+
+          <a
+            href="https://john-zeta.vercel.app/"
+            className={styles.card}
+          >
+            <h2>John &darr;</h2>
+            <p>An eyewitness account of Jesus ministry, enriched by the authors understanding of Jewish traditions & knowledge of Palestine.</p>
+          </a>
+        
         </div>
         <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
         <Image className={styles.card1}

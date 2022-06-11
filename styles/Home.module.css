@@ -110,8 +110,23 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.nav ul li {
+    display: flex;
+    flex-basis: auto;
+    color: #fafafa;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+    padding-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav ul li:hover {
+    color: black;
+}
+
 .nav ul:hover {
-    color: silver;
+    color: orange;
     text-decoration: underline;
 }
 
@@ -149,7 +164,7 @@
 .card:active {
     color: black;
     border-color: hsl(212, 100%, 48%);
-    background-image: url(/cloud_lightning.webp);
+    background-image: url(/monophy.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
