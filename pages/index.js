@@ -54,7 +54,7 @@ export default function Home() {
         />
         </a>
 
-       <h2 className={styles.links}>A New Testament: The 4 Gospels</h2>
+       <h2 className={styles.links}>The 4 Gospels of Jesus Christ, the Messiah told by his apostles Mark, Matthew Luke & John</h2>
        <a href="https://proverbs.vercel.app/">
        <h2 className={styles.links}>Proverbs: Insight into Parables & the Sayings & Riddles of the Wise</h2>
        </a>
