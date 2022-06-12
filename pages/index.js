@@ -52,17 +52,23 @@ export default function Home() {
           height="1000px"
           width="1000px"
         />
-        
-
-       <h2 className={styles.links}>The 4 Gospels of Jesus Christ</h2>
-       <a href="https://acts-zeta.vercel.app">
-       <h2 className={styles.links}>The Acts of the Apostles</h2>
-       </a>
+       
+       <code className={styles.code}> The 4 Gospels of Jesus Christ</code>
 
 
-       <a href="https://proverbs.vercel.app/">
-       <h2 className={styles.links}>Proverbs: Insight into Parables & Sayings of the Wise</h2>
-       </a>
+       <p className={styles.description}>
+          The  {' '} <a href="https://acts-zeta.vercel.app"><code className={styles.code}>Acts</code></a> {' '} of the 
+         Apostles
+        </p>
+
+       
+         {' '} <a href="https://proverbs.vercel.app/"><code className={styles.code}>Proverbs:</code></a> {' '}  <p className={styles.description}>Insight into Parables & Sayings of the Wise
+        </p>
+
+       
+
+
+       
      
 
      

@@ -95,8 +95,8 @@
 }
 
 .code:hover {
-    color: black;
-    text-shadow: 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .nav ul {
