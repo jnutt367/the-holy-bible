@@ -55,7 +55,7 @@ export default function Home() {
         
 
        <h2 className={styles.links}>The 4 Gospels of Jesus Christ</h2>
-       <a href="https://acts.vercel.app/">
+       <a href="https://acts-zeta.vercel.app">
        <h2 className={styles.links}>The Acts of the Apostles</h2>
        </a>
 
