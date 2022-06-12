@@ -32,7 +32,7 @@
 
 .links:hover {
     color: black;
-    text-shadow: 5px 5px white;
+    text-shadow: 1px 1px white;
     border-color: hsl(197, 25%, 55%);
     background-image: url(/cloud_lightning.webp);
     opacity: 0.85;
@@ -86,7 +86,7 @@
 
 .code {
     border-radius: 5px;
-    color: black;
+    color: white;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
     font-size: 1.1rem;
@@ -96,7 +96,7 @@
 
 .code:hover {
     color: black;
-    text-shadow: 5px 5px white;
+    text-shadow: 1px 1px white;
 }
 
 .nav ul {
