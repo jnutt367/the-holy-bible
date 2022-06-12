@@ -55,6 +55,11 @@ export default function Home() {
         
 
        <h2 className={styles.links}>The 4 Gospels of Jesus Christ</h2>
+       <a href="https://acts.vercel.app/">
+       <h2 className={styles.links}>The Acts of the Apostles</h2>
+       </a>
+
+
        <a href="https://proverbs.vercel.app/">
        <h2 className={styles.links}>Proverbs: Insight into Parables & Sayings of the Wise</h2>
        </a>
