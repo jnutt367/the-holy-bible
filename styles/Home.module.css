@@ -67,7 +67,10 @@
 }
 
 .title {
+    background-image: url(/cloud_lightning.webp);
+    padding: 3rem;
     margin: 0;
+    border-radius: 15px 15px 0px 0px;
     line-height: 1.15;
     font-size: 4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
