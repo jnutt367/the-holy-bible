@@ -89,12 +89,14 @@
 
 .code {
     border-radius: 5px;
-    color: white;
+    color: black;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
     font-size: 1.1rem;
     font-weight: 900;
+    text-shadow: 3px 3px solid black;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    text-shadow: 3px 3px solid white;
 }
 
 .code:hover {

@@ -45,13 +45,7 @@ export default function Home() {
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
   
-        <Image 
-          src="/WS_Gospel_Poster.jpeg"
-          alt="new testament illustration"
-          layout="intrinsic"
-          height="1000px"
-          width="1000px"
-        />
+       
        
        <code className={styles.code}> The 4 Gospels of Jesus Christ</code>
 
