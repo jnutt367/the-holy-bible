@@ -45,7 +45,11 @@ export default function Home() {
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
   
-       
+        <p className={styles.code}>
+        <span className={styles.span}> &darr; Romans 1:16 &rarr; </span>
+          For I am not ashamed of the  gospel, because it is the power
+          of God that brings salvation to everyone who believes. First the Jew & then the Gentile
+        </p>
        
        <code className={styles.code}> The 4 Gospels of Jesus Christ</code>
 
@@ -65,6 +69,7 @@ export default function Home() {
        
      
 
+     <button className={styles.button}>Donate to Fund this Build</button>
      
        
         <code className={styles.code}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>

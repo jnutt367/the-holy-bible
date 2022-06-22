@@ -39,6 +39,10 @@
     font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.span {
+    font-size: x-large;
+}
+
 .footer {
     display: flex;
     flex: 1;
@@ -101,8 +105,9 @@
 }
 
 .code:hover {
-    color: white;
-    text-shadow: 1px 1px black;
+    color: black;
+    text-shadow: 1px 1px orange;
+    opacity: 0.7;
 }
 
 .nav ul {
@@ -148,6 +153,19 @@
     padding-top: 3rem;
     border-radius: 15px;
     margin-right: 3rem;
+}
+
+.button {
+    color: black;
+    background-image: url(/cloud_lightning.webp);
+    padding: 2rem;
+    font-size: larger;
+    margin: 2rem;
+}
+
+.button:hover {
+    color: black;
+    text-shadow: 2px 2px orange;
 }
 
 .card {
