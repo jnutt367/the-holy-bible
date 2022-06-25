@@ -297,6 +297,13 @@
     opacity: 1;
 }
 
+.flex {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav ul {
     display: flex;
     flex-basis: auto;

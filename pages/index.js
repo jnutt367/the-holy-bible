@@ -11,6 +11,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
+      <div className={styles.flex}>
+            <Image
+              src="/Jesus-color-silhouette-low-poly-pattern.svg"
+              height={50}
+              width={100}
+              className="mt-10"
+              objectFit="cover"
+              alt="Jesus Logo"
+            />
+
+            <button>
+                DONATE
+            </button>
+        </div>
         <div>
           <nav className={styles.nav}>
               <ul>
@@ -40,6 +54,7 @@ export default function Home() {
           </nav>
         </div>
       </header>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
