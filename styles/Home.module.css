@@ -59,6 +59,190 @@
     flex-grow: 1;
 }
 
+
+/*
+.flex {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav ul {
+    display: flex;
+    flex-basis: auto;
+    color: #fafafa;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+    padding-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav ul:hover {
+    text-shadow: 1px 20px black;
+}
+
+.title a {
+    color: orange;
+    text-decoration: none;
+    background-image: url(/cloud_lightning.webp);
+    padding: 2rem;
+    opacity: 0.9;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+    text-shadow: 1px 1px white;
+    opacity: 1;
+}
+
+.title {
+    background-image: url(/cloud_lightning.webp);
+    margin: 2rem;
+    line-height: 1.15;
+    width: 100%;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.description {
+    color: white;
+    padding: 2rem;
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 3rem;
+    max-width: 60rem;
+}
+
+.code {
+    background-color: transparent;
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 0.75rem;
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    max-height: 300px;
+    overflow: scroll;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+    font-family: monospace;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+    color: black;
+    text-shadow: 2px 2px white;
+    border-color: hsl(212, 100%, 48%);
+    background-image: url(/monophy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.85;
+    overflow: scroll;
+    font-family: monospace;
+}
+
+.card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card h2:hover {
+    text-shadow: 2px 2px white;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
+
+.publisher {
+    font-family: monospace;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.h2 {
+    background-image: url(/cloud_lightning.webp);
+    text-shadow: 1.5px 1.5px white;
+    margin-top: 3rem;
+    padding: 2rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    transition: color 1s ease, border-color 0.15s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.illustration {
+    border-radius: 15px;
+    margin: 3rem;
+}
+
+.h2:hover {
+    color: white;
+    opacity: 0.7;
+    text-shadow: 1px 15px black;
+    border-color: hsl(184, 42%, 62%);
+    text-decoration: dashed;
+    width: 100%;
+    background-image: url(/cloud_lightning.webp);
+    opacity: 0.85;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+*/
+
 .title a {
     color: rgba(214, 123, 20, 0.993);
     text-decoration: none;
@@ -67,7 +251,7 @@
 .title a:hover,
 .title a:focus,
 .title a:active {
-    text-decoration: underline;
+    text-shadow: 2px 2px white;
 }
 
 .title {
@@ -94,20 +278,23 @@
 
 .code {
     border-radius: 5px;
-    color: black;
-    background-image: url(/jesus.gif);
+    color: white;
+    text-shadow: 3px 1px black;
+    background-image: url(/cloud_lightning.webp);
     padding: 3rem;
     font-size: 1.1rem;
-    font-weight: 900;
+    font-weight: 100;
     text-shadow: 3px 3px solid black;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
     text-shadow: 3px 3px solid white;
+    opacity: 0.9;
 }
 
 .code:hover {
     color: black;
-    text-shadow: 1px 1px orange;
-    opacity: 0.7;
+    font-weight: 900;
+    text-shadow: 2px 0px white;
+    opacity: 1;
 }
 
 .nav ul {
@@ -177,6 +364,7 @@
     overflow: scroll;
     text-decoration: none;
     border: 1px solid #eaeaea;
+    border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 300px;
     font-family: monospace;
@@ -186,12 +374,13 @@
 .card:focus,
 .card:active {
     color: black;
+    text-shadow: 2px 2px white;
     border-color: hsl(212, 100%, 48%);
     background-image: url(/monophy.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    opacity: 0.75;
+    opacity: 0.85;
     overflow: scroll;
     font-family: monospace;
 }
@@ -203,20 +392,13 @@
 }
 
 .card h2:hover {
-    text-decoration: underline;
-    color: black;
+    text-shadow: 2px 2px white;
 }
 
 .card p {
     margin: 0;
     font-size: 1.25rem;
     line-height: 1.5;
-    font-family: monospace;
-}
-
-.card p:hover {
-    text-decoration: underline;
-    font-weight: 900;
 }
 
 .logo {
