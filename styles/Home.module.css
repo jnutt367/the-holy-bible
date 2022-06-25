@@ -278,8 +278,8 @@
 
 .code {
     border-radius: 5px;
-    color: white;
-    text-shadow: 3px 1px black;
+    color: black;
+    text-shadow: 1px 1px white;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
     font-size: 1.1rem;
