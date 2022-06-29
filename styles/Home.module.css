@@ -285,7 +285,7 @@
 
 .code {
     border-radius: 5px;
-    color: black;
+    color: white;
     text-shadow: 0px 2px white;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
@@ -419,8 +419,11 @@
 }
 
 .publisher {
+    background-image: url(/cloud_lightning.webp);
     font-family: monospace;
-    color: black;
+    color: white;
+    padding: 2rem 0;
+    text-shadow: 1px 1px black;
     font-size: 1.5rem;
 }
 

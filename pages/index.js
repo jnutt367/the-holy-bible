@@ -14,14 +14,16 @@ export default function Home() {
       <div className={styles.flex}>
             <Image
               src="/Jesus-color-silhouette-low-poly-pattern.svg"
-              height={50}
+              height={100}
               width={100}
               className="mt-10"
               objectFit="cover"
               alt="Jesus Logo"
             />
-
-            <button>
+  <a className={styles.code} href="https://romans-five.vercel.app/">
+    Romans
+  </a>
+            <button className={styles.code}>
                 DONATE
             </button>
         </div>
