@@ -67,7 +67,7 @@ export default function Home() {
           <code className={styles.publisher}>&darr; Scroll Down &darr;</code>
         </p>
 
-        <p className={styles.code}>
+        <p className={styles.h2}>
         <span className={styles.span}> &darr; Romans 1:16 &rarr; </span>
           For I am not ashamed of the  gospel, because it is the power
           of God that brings salvation to everyone who believes. First the Jew & then the Gentile
