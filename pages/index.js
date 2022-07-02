@@ -20,8 +20,8 @@ export default function Home() {
               objectFit="cover"
               alt="Jesus Logo"
             />
-  <a className={styles.code} href="https://romans-five.vercel.app/">
-    Romans
+  <a className={styles.code} href="#">
+    Index
   </a>
             <button className={styles.code}>
                 DONATE
@@ -82,7 +82,11 @@ export default function Home() {
           The  {' '} <a href="https://acts-zeta.vercel.app"><code className={styles.code}>Acts</code></a> {' '} of the 
          Apostles
         </p>
-
+        <p className={styles.description}>
+       The Book of <a className={styles.code} href="https://romans-five.vercel.app/">
+    Romans
+  </a>
+  </p>
        
          {' '} <a href="https://proverbs.vercel.app/"><code className={styles.code}>Proverbs:</code></a> {' '}  <p className={styles.description}>Insight into Parables & Sayings of the Wise
         </p>

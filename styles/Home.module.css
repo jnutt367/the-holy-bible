@@ -103,6 +103,7 @@
     padding: 2rem;
     padding-right: 3rem;
     margin: 0rem 0;
+    margin-bottom: 2rem;
     line-height: 1.5;
     font-size: 2rem;
     max-width: 60rem;
@@ -111,6 +112,7 @@
 .code {
     border-radius: 5px;
     color: orange;
+    margin-bottom: 2rem;
     text-shadow: 2px 2px black;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
@@ -177,7 +179,6 @@
     text-decoration: dashed;
     background-image: url(/cloud_lightning.webp);
     opacity: 0.85;
-    font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
