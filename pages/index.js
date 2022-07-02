@@ -58,13 +58,15 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
+      
+       <h2>The Holy</h2>
         <h1 className={styles.title}>
-          The Holy  <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
+            <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
   
         <p className={styles.description}>
           
-          <code className={styles.publisher}>&darr; Scroll Down &darr;</code>
+          <code className={styles.publisher}>&darr; Scroll &darr;</code>
         </p>
 
         <p className={styles.h2}>

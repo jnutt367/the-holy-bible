@@ -204,6 +204,7 @@
     background-image: url(/monophy.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: all-scroll;
     background-color: white;
     opacity: 0.9;
     overflow: scroll;
@@ -267,5 +268,23 @@
         flex-direction: column;
         align-items: center;
         margin-left: -2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .publisher {
+        font-size: 1.5rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .title {
+        font-size: 5rem;
     }
 }
