@@ -172,13 +172,12 @@
 }
 
 .h2:hover {
-    color: black;
-    opacity: 0.7;
-    text-shadow: 1px 2px whitesmoke;
+    color: orange;
+    text-shadow: 2px 2px black;
     border-color: hsl(184, 42%, 62%);
     text-decoration: dashed;
-    background-image: url(/cloud_lightning.webp);
-    opacity: 0.85;
+    background-image: none;
+    background-color: grey;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
