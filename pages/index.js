@@ -20,7 +20,7 @@ export default function Home() {
               objectFit="cover"
               alt="Jesus Logo"
             />
-  <a className={styles.code} href="#">
+  <a className={styles.code} href="https://index-olive-two.vercel.app/">
     Index
   </a>
             <button className={styles.code}>
