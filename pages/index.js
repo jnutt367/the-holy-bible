@@ -15,9 +15,9 @@ export default function Home() {
         <div>
           <nav className={styles.nav}>
               <ul>
-              <a href="https://the-holy-bible.vercel.app/">
+              <a href="https://index-olive-two.vercel.app/">
                   <li>
-                    Home
+                    Index
                   </li>
                 </a>
                 <a href="https://matthew-coral.vercel.app/">
@@ -51,7 +51,7 @@ export default function Home() {
               alt="Jesus Logo"
             />
 
-<a className={styles.code} href="https://the-holy-bible.vercel.app">HOME</a>
+<a className={styles.code} href="https://index-olive-two.vercel.app/">INDEX</a>
             <button className={styles.code}>
                 DONATE
             </button>
