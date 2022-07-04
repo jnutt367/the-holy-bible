@@ -103,19 +103,18 @@
     padding: 2rem;
     padding-right: 3rem;
     margin: 0rem 0;
-    margin-bottom: 2rem;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 1rem;
     max-width: 60rem;
 }
 
 .code {
     border-radius: 5px;
     color: orange;
-    margin-bottom: 2rem;
     text-shadow: 2px 2px black;
     background-image: url(/cloud_lightning.webp);
     padding: 3rem;
+    margin: 3rem;
     font-size: 1.1rem;
     font-weight: 900;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
@@ -129,8 +128,12 @@
 
 .span {
     font-size: xx-large;
-    color: #fafafa;
+    color: orange;
     text-shadow: 1px 1px black;
+}
+
+.span:hover {
+    color: black;
 }
 
 .nav ul li {
@@ -172,12 +175,12 @@
 }
 
 .h2:hover {
-    color: orange;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: 1px 2px whitesmoke;
     border-color: hsl(184, 42%, 62%);
     text-decoration: dashed;
     background-image: none;
-    background-color: grey;
+    opacity: 0.85;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -277,9 +280,6 @@
     }
     .title {
         font-size: 2rem;
-    }
-    .description {
-        font-size: 1rem;
     }
 }
 

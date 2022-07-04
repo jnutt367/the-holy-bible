@@ -88,7 +88,8 @@ export default function Home() {
   </a>
   </p>
        
-         {' '} <a href="https://proverbs.vercel.app/"><code className={styles.code}>Proverbs:</code></a> {' '}  <p className={styles.description}>Insight into Parables & Sayings of the Wise
+         {' '} <a href="https://proverbs.vercel.app/"><code className={styles.code}>Proverbs:</code></a> {' '}  
+         <p className={styles.description}>Insight into Parables & Sayings of the Wise
         </p>
 
        
@@ -99,16 +100,8 @@ export default function Home() {
  
      
        
-        <code className={styles.code}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
-        <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
-        <Image className={styles.card1}
-          src="/Jesus-Fish-Custom.svg"
-          alt="new testament illustration"
-          layout="intrinsic"
-          height="300px"
-          width="300px"
-        />
-        </a>
+        <code className={styles.h2}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
+      
         
         <div className={styles.grid}>
         <a href="https://matthew-coral.vercel.app/" className={styles.card}>
@@ -148,15 +141,7 @@ export default function Home() {
           </a>
         
         </div>
-        <a href="https://freesvg.org/drawing-of-word-jesus-written-in-shape-of-fish">
-        <Image className={styles.card1}
-          src="/Jesus-Fish-Custom.svg"
-          alt="new testament illustration"
-          layout="intrinsic"
-          height="300px"
-          width="300px"
-        />
-        </a>
+       
         <p className={styles.description}> 
         <code className={styles.publisher}>
         Coded, Published & Deployed by His servant: Jason Daniel Nutt 
