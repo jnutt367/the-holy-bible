@@ -52,9 +52,12 @@ export default function Home() {
             />
 
 <a className={styles.code} href="https://index-olive-two.vercel.app/">INDEX</a>
+            
+            <a href="https://www.linkedin.com/in/jnuttlovedisciple">
             <button className={styles.code}>
-                DONATE
+                PUBLISHER
             </button>
+            </a>
         </div>
       <main className={styles.main}>
     

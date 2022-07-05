@@ -108,6 +108,10 @@
     max-width: 60rem;
 }
 
+.anchor:hover {
+    cursor: pointer;
+}
+
 .code {
     border-radius: 5px;
     color: orange;
@@ -123,6 +127,7 @@
     color: white;
     text-shadow: 1.5px 1.5px orange;
     opacity: 0.9;
+    cursor: help;
 }
 
 .span {
