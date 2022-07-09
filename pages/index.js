@@ -49,19 +49,16 @@ export default function Home() {
             <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
         <div className={styles.flex}>
-          
-
-          <a className={styles.code} href="https://index-olive-two.vercel.app/">
-          
+        <button className={styles.code}>
+                    <a   href="https://index-olive-two.vercel.app/">
                           INDEX
-          
-          </a>
+                          </a>
+                      </button>
+
+          <a className={styles.code} href="https://www.linkedin.com/in/jnuttlovedisciple/">PUBLISHER</a>
+                     
+                     
                       
-                      <a  className={styles.code} href="https://www.linkedin.com/in/jnuttlovedisciple">
-                       
-                          PUBLISHER
-                      
-                      </a>
                   </div>
         <p className={styles.description}>
           
@@ -77,19 +74,24 @@ export default function Home() {
        <code className={styles.code}> The 4 Gospels of Jesus Christ</code>
 
 
-       <p className={styles.description}>
-          The  {' '} <a href="https://acts-zeta.vercel.app"><code className={styles.code}>Acts</code></a> {' '} of the 
-         Apostles
-        </p>
-        <p className={styles.description}>
-       The Book of <a className={styles.code} href="https://romans-five.vercel.app/">
-    Romans
-  </a>
-  </p>
        
-         {' '} <a href="https://proverbs.vercel.app/"><code className={styles.code}>Proverbs:</code></a> {' '}  
-         <p className={styles.description}>Insight into Parables & Sayings of the Wise
-        </p>
+         <a href="https://acts-zeta.vercel.app">
+          
+          <code className={styles.books}>Acts</code></a> 
+         
+        
+       
+       <a href="https://romans-five.vercel.app/">
+       <code className={styles.books}> Romans</code>
+  </a>
+  
+       
+         
+         <a href="https://proverbs.vercel.app/">
+         <code className={styles.books}>Proverbs:</code>
+         
+         </a>  
+      
 
        
 

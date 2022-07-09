@@ -252,6 +252,10 @@
     justify-content: space-around;
 }
 
+.books {
+    margin: 3rem;
+}
+
 .publisher {
     font-family: monospace;
     color: orange;
@@ -302,5 +306,8 @@
     .code {
         height: 100px;
         margin: 0.5rem;
+    }
+    .description {
+        display: none;
     }
 }
