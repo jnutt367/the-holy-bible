@@ -51,7 +51,11 @@ export default function Home() {
         <div className={styles.flex}>
           
 
-          <a className={styles.code} href="https://index-olive-two.vercel.app/">INDEX</a>
+          <a className={styles.code} href="https://index-olive-two.vercel.app/">
+          
+                          INDEX
+          
+          </a>
                       
                       <a  className={styles.code} href="https://www.linkedin.com/in/jnuttlovedisciple">
                        

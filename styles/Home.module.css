@@ -162,7 +162,7 @@
 }
 
 .h2 {
-    background-image: url(/cloud_lightning.webp);
+    background-image: none;
     opacity: 0.75;
     background-size: cover;
     text-shadow: 1px 1px white;
@@ -301,6 +301,6 @@
     }
     .code {
         height: 100px;
-        margin: 1rem;
+        margin: 0.5rem;
     }
 }
