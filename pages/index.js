@@ -41,31 +41,24 @@ export default function Home() {
           </nav>
         </div>
       </header>
-      <div className={styles.flex}>
-            <Image
-              src="/Jesus-color-silhouette-low-poly-pattern.svg"
-              height={50}
-              width={100}
-              className="mt-10"
-              objectFit="cover"
-              alt="Jesus Logo"
-            />
-
-<a className={styles.code} href="https://index-olive-two.vercel.app/">INDEX</a>
-            
-            <a href="https://www.linkedin.com/in/jnuttlovedisciple">
-            <button className={styles.code}>
-                PUBLISHER
-            </button>
-            </a>
-        </div>
+    
       <main className={styles.main}>
     
        <h2>The Holy</h2>
         <h1 className={styles.title}>
             <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-  
+        <div className={styles.flex}>
+          
+
+          <a className={styles.code} href="https://index-olive-two.vercel.app/">INDEX</a>
+                      
+                      <a  className={styles.code} href="https://www.linkedin.com/in/jnuttlovedisciple">
+                       
+                          PUBLISHER
+                      
+                      </a>
+                  </div>
         <p className={styles.description}>
           
           <code className={styles.publisher}>&darr; Scroll &darr;</code>
