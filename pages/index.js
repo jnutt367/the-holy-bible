@@ -71,36 +71,28 @@ export default function Home() {
           of God that brings salvation to everyone who believes. First the Jew & then the Gentile
         </p>
        
-       <code className={styles.code}> The 4 Gospels of Jesus Christ</code>
+   
 
-
-       
+       <ul className={styles.ul}>
+       <li className={styles.li}>
          <a href="https://acts-zeta.vercel.app">
           
           <code className={styles.books}>Acts</code></a> 
-         
+          </li>
         
-       
+       <li  className={styles.li}>
        <a href="https://romans-five.vercel.app/">
-       <code className={styles.books}> Romans</code>
+       <code className={styles.books}>Romans</code>
   </a>
-  
+  </li>
        
-         
+         <li  className={styles.li}>
          <a href="https://proverbs.vercel.app/">
-         <code className={styles.books}>Proverbs:</code>
+         <code className={styles.books}>Proverbs</code>
          
          </a>  
-      
-
-       
-
-       
-     
-
- 
-     
-       
+         </li>
+         </ul>
         <code className={styles.h2}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
       
         
