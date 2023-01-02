@@ -23,21 +23,17 @@ export default function Home() {
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
       height={400}
-      width={1200}
+      width={2000}
+      priority
     />
 </div>        
-        <div className={styles.flex}>
+     <div className={styles.flex}>
         <button className={styles.code}>
                     <a   href="https://index-olive-two.vercel.app/">
                           INDEX
                           </a>
                       </button>
-
-          <a className={styles.code} href="https://www.linkedin.com/in/jnuttlovedisciple/">PUBLISHER</a>
-                     
-                     
-                      
-                  </div>
+      </div>
         <p className={styles.description}>
           
           <code className={styles.publisher}>&darr; Scroll &darr;</code>
