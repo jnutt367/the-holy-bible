@@ -51,10 +51,8 @@ export default function Home() {
    <Image className={styles.hero}
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
-      fill
-      sizes="(max-width: 768px) 10vw,
-              (max-width: 1200px) 10vw,
-              10vw"
+      hieght={300}
+      width={100vw}
     />
         <div className={styles.flex}>
         <button className={styles.code}>
