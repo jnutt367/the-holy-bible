@@ -48,12 +48,12 @@ export default function Home() {
         <h1 className={styles.title}>
             <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-   <Image
+   <Image className={styles.hero}
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
       fill
-      sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
+      sizes="(max-width: 768px) 50vw,
+              (max-width: 1200px) 25vw,
               33vw"
     />
         <div className={styles.flex}>
