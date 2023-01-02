@@ -16,5 +16,8 @@
   font-size: 64px;
   margin-bottom: 3rem;
 }
-
+.hero {
+  position:relative;
+  top: -200px;
+}
 
