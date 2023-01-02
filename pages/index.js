@@ -93,7 +93,7 @@ export default function Home() {
          </a>  
          </li>
          </ul>
-        <code className={styles.h2}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
+        <code className={styles.holy}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
       
         
         <div className={styles.grid}>
