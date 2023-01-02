@@ -5,6 +5,7 @@
   font-family: Ariel, sans;
   position: relative;
    top: -20px;
+  font-size: xx-large;
 }
 .title {
   position: relative;
@@ -12,4 +13,5 @@
   margin-top: 0;
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
+  font-size: xx-large;
 }
