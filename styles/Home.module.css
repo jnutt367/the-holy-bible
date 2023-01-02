@@ -18,9 +18,11 @@
 }
 .holy {
     font-size: xx-large;
+    font-weight:900;
     position: relative;
+    font-family: Arial, sans-serif;
     top: -100px;    
-    left:-300px;
+    left:-200px;
 }
 .footer {
     display: flex;
@@ -87,8 +89,9 @@
 }
 
 .title {
-    background-image: url(/cloud_lightning.webp);
-    background-size: cover;
+    position: relative;
+    left: -200px;
+    top: -100px;
     margin: 2rem;
     line-height: 1.15;
     height: 10rem;
