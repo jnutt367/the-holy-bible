@@ -48,7 +48,7 @@ export default function Home() {
         <h1 className={styles.title}>
             <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-    <Image src="/gods-finger.jpg" alt="hero" hiegth={500} width={100%} />
+   
         <div className={styles.flex}>
         <button className={styles.code}>
                     <a   href="https://index-olive-two.vercel.app/">
