@@ -3,7 +3,8 @@
 }
 .holy {
   font-family: Ariel, sans;
-  
+  position: relative;
+   top: -40px;
 }
 .title {
   position: relative;
