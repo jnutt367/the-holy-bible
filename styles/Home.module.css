@@ -4,20 +4,17 @@
 .holy {
   font-family: Ariel, sans;
   position: relative;
-   top: -20px;
+   top: -30px;
   font-size: 52px;
 }
 .title {
   position: relative;
-  top: -95px;
+  top: 105px;
   margin-top: 0;
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
   font-size: 64px;
   margin-bottom: 3rem;
 }
-.hero {
-  position: relative;
-  top: -200px;
-}
+
 
