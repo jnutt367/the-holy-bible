@@ -22,7 +22,7 @@
     position: relative;
     font-family: Arial, sans-serif;
     top: -100px;    
-    left:-200px;
+    left:-100px;
 }
 .footer {
     display: flex;
@@ -90,7 +90,7 @@
 
 .title {
     position: relative;
-    left: -200px;
+    left: -100px;
     top: -100px;
     margin: 2rem;
     line-height: 1.15;
