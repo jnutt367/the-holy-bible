@@ -11,36 +11,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
        
-      <header>
-        <div>
-          <nav className={styles.nav}>
-              <ul>
-              <a href="https://index-olive-two.vercel.app/">
-                  <li>
-                    Index
-                  </li>
-                </a>
-                <a href="https://matthew-coral.vercel.app/">
-                  <li>
-                    Matthew
-                  </li>
-                </a>
-               
-                <a href="https://luke-three.vercel.app/">
-                <li>
-                  Luke
-                </li>
-                </a>
-                <a href="https://john-zeta.vercel.app/">
-                <li>
-                  John
-                </li>
-                </a>
-              </ul>
-
-          </nav>
-        </div>
-      </header>
     
       <main className={styles.main}>
     
@@ -51,7 +21,7 @@ export default function Home() {
    <Image className={styles.hero}
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
-      height={300}
+      height={400}
       width={1200}
     />
         <div className={styles.flex}>
