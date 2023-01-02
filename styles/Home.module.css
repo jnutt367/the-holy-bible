@@ -1,1 +1,10 @@
-
+.nav {
+  display: none;
+}
+.holy {
+  height: 500px;
+  font-family: Ariel, sans;
+}
+.title {
+  height: 500px;
+}
