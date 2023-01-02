@@ -52,7 +52,7 @@ export default function Home() {
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
       fill
-      sizes="(max-width: 768px) 50vw,
+      sizes="(max-width: 768px) 300px,
               (max-width: 1200px) 25vw,
               33vw"
     />
