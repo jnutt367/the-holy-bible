@@ -17,9 +17,10 @@
     align-items: center;
 }
 .holy {
-    font-size: 5rem;
+    font-size: 10rem;
     position: relative;
     top: -100px;    
+    left: 100px;
 }
 .footer {
     display: flex;
