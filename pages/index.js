@@ -52,7 +52,7 @@ export default function Home() {
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
       height={300}
-      width={100vw}
+      width={1200}
     />
         <div className={styles.flex}>
         <button className={styles.code}>
