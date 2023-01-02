@@ -26,10 +26,11 @@ export default function Home() {
       width={2000}
       priority
     />
-</div>     
-  <p className={styles.transcribed}>
+        <p className={styles.transcribed}>
     Transcribed by: Jason Daniel Nutt
   </p>
+</div>     
+  
      <div className={styles.flex}>
         <button className={styles.code}>
                     <a   href="https://index-olive-two.vercel.app/">
