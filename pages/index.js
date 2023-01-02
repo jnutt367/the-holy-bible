@@ -51,7 +51,7 @@ export default function Home() {
    <Image className={styles.hero}
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
-      hieght={300}
+      height={300}
       width={100vw}
     />
         <div className={styles.flex}>
