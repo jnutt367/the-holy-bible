@@ -27,8 +27,8 @@
 .index  {
   position: relative;
    top: -25px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-gaps: 10px;
   justify-content: space-around;
   background-color: grey;
 }
