@@ -54,8 +54,8 @@ export default function Home() {
     </ul>
   
 </div>     
-  /*
-     <div className={styles.flex}>
+    </main>
+   /*  <div className={styles.flex}>
         <button className={styles.code}>
                     <a   href="https://index-olive-two.vercel.app/">
                           INDEX
@@ -143,7 +143,7 @@ export default function Home() {
         </code>
         </p>
       </main>
-
+*/
       <footer className={styles.footer}>
   
         <a
