@@ -1,5 +1,5 @@
-.nav {
-  display: none;
+.container {
+  background-color: silver;
 }
 .holy {
   font-family: Ariel, sans;
@@ -31,7 +31,8 @@
   grid-gaps: 10px;
   justify-content: space-around;
   background-color: grey;
+  list-style-type: none;
 }
 .index li {
-  padding: 10px;
+  grid-gaps: 10px;
 }
