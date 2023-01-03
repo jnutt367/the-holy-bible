@@ -35,10 +35,11 @@
   text-align: left;
 }
 .li {
-  width:100%;
+  width:100vw;
   grid-gaps: 10px;
   border: 1px solid black;
   text-align: left;
+  line-height:1.5;
 }
 .li:hover,
 .li:focus,
