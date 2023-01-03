@@ -35,7 +35,20 @@ export default function Home() {
        <li className={styles.li}>Exodus</li>  
         <li className={styles.li}>Leviticus</li>  
        <li className={styles.li}>Numbers</li>  
-       <li className={styles.li}>Deuteronomy</li>  
+       <li className={styles.li}>Deuteronomy</li> 
+      
+        <li className={styles.li}>Joshua</li>  
+       <li className={styles.li}>Judges</li>  
+        <li className={styles.li}>Ruth</li>  
+       <li className={styles.li}>1 Samuel</li>  
+       <li className={styles.li}>2 Samuel</li>  
+
+
+           <li className={styles.li}>1 Kings</li>  
+       <li className={styles.li}>2 Kings</li>  
+        <li className={styles.li}>1 Chronicles</li>  
+       <li className={styles.li}>2 Chronicles</li>  
+       <li className={styles.li}>Ezra</li>  
     </ul>
   
 </div>     
