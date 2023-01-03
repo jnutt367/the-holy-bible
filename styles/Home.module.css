@@ -31,11 +31,11 @@
   grid-gaps: 10px;
   justify-content: space-around;
   background-color: transparent;
-  
   list-style-type: none;
   text-align: left;
 }
-.index .li {
+.li {
   grid-gaps: 10px;
   border: 1px black;
+  text-align: left;
 }
