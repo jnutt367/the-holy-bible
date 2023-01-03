@@ -22,5 +22,10 @@
 }
 .transcribed {
    position: relative;
-   top: -20px;
+   top: 100px;
+}
+.index li {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
 }
