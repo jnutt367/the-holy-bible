@@ -1,6 +1,5 @@
 .container {
   background-color: silver;
-  padding:0;
 }
 .holy {
   font-family: Ariel, sans;
@@ -33,13 +32,11 @@
   justify-content: space-around;
   background-color: transparent;
   list-style-type: none;
-  text-align: left;
 }
 .li {
   width:100vw;
   grid-gaps: 10px;
   border: 1px solid black;
-  text-align: left;
   line-height:1.5;
 }
 .li:hover,
