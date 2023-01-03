@@ -15,9 +15,9 @@ export default function Home() {
       <main className={styles.main}>
     
        <h2 className={styles.holy}>The Holy</h2>
-        <h1 className={styles.title}>
-            <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
-        </h1>
+                <h1 className={styles.title}>
+                    <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
+                </h1>
                     <div className={styles.hero}>
                        <Image 
                           src="/gods-finger.jpg"
@@ -55,37 +55,6 @@ export default function Home() {
 
                     </div>     
     
-              <div className={styles.flex}>
-                  <button className={styles.code}>
-                              <a   href="https://index-olive-two.vercel.app/">
-                                    INDEX
-                                    </a>
-                                </button>
-                </div>
-                  <p className={styles.description}>
-
-                    <code className={styles.publisher}>&darr; Scroll &darr;</code>
-                  </p>
-
-                  <p className={styles.h2}>
-                  <span className={styles.span}> &darr; Romans 1:16 &rarr; </span>
-                    For I am not ashamed of the  gospel, because it is the power
-                    of God that brings salvation to everyone who believes. First the Jew & then the Gentile
-                  </p>
-
-
-
-      
-                  <code className={styles.holy}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
-
-
-               
-       
-        <p className={styles.description}> 
-        <code className={styles.publisher}>
-        Coded, Published & Deployed by His servant: Jason Daniel Nutt 
-        </code>
-        </p>
       </main>
 
     </div>
