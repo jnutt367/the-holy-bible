@@ -1,5 +1,6 @@
 .container {
   background-color: silver;
+  padding:0;
 }
 .holy {
   font-family: Ariel, sans;
