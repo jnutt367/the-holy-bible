@@ -31,7 +31,9 @@ export default function Home() {
     </p>
    
     <ul className={styles.index}>
+    <a href="https://waggin-rights.vercel.app/">  
       <li className={styles.li}>Genesis</li>  
+    </a>
        <li className={styles.li}>Exodus</li>  
         <li className={styles.li}>Leviticus</li>  
        <li className={styles.li}>Numbers</li>  
