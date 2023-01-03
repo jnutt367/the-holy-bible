@@ -22,7 +22,7 @@ export default function Home() {
    <Image 
       src="/gods-finger.jpg"
       alt="Picture of the Gods finger"
-      height={400}
+      height={600}
       width={2000}
       priority
     />
