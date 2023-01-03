@@ -35,6 +35,7 @@
   text-align: left;
 }
 .li {
+  width:100%;
   grid-gaps: 10px;
   border: 1px solid black;
   text-align: left;
