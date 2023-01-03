@@ -22,10 +22,13 @@
 }
 .transcribed {
    position: relative;
-   top: -50px;
+   top: -35px;
 }
 .index  {
   display: flex;
   flex-direction: column;
   background-color: grey;
+}
+.index li {
+  padding: 10px;
 }
