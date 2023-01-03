@@ -36,6 +36,13 @@
 }
 .li {
   grid-gaps: 10px;
-  border: 1px black;
+  border: 1px solid black;
   text-align: left;
+}
+.li:hover,
+.li:focus,
+.li:active {
+  border: 2px solid black;
+  background-color: grey;
+  cursor:pointer;
 }
