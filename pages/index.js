@@ -18,124 +18,68 @@ export default function Home() {
         <h1 className={styles.title}>
             <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
         </h1>
-<div className={styles.hero}>
-   <Image 
-      src="/gods-finger.jpg"
-      alt="Picture of the Gods finger"
-      height={900}
-      width={2000}
-      priority
-    />
-    <p className={styles.transcribed}>
-      Transcribed by: Jason Daniel Nutt
-    </p>
-   
-    <ul className={styles.index}>
-    <a href="https://waggin-rights.vercel.app/">  
-      <li className={styles.li}>Genesis</li>  
-    </a>
-       <li className={styles.li}>Exodus</li>  
-        <li className={styles.li}>Leviticus</li>  
-       <li className={styles.li}>Numbers</li>  
-       <li className={styles.li}>Deuteronomy</li> 
-      
-        <li className={styles.li}>Joshua</li>  
-       <li className={styles.li}>Judges</li>  
-        <li className={styles.li}>Ruth</li>  
-       <li className={styles.li}>1 Samuel</li>  
-       <li className={styles.li}>2 Samuel</li>  
+                    <div className={styles.hero}>
+                       <Image 
+                          src="/gods-finger.jpg"
+                          alt="Picture of the Gods finger"
+                          height={900}
+                          width={2000}
+                          priority
+                        />
+                        <p className={styles.transcribed}>
+                          Transcribed by: Jason Daniel Nutt
+                        </p>
+
+                        <ul className={styles.index}>
+                        <a href="https://waggin-rights.vercel.app/">  
+                          <li className={styles.li}>Genesis</li>  
+                        </a>
+                           <li className={styles.li}>Exodus</li>  
+                            <li className={styles.li}>Leviticus</li>  
+                           <li className={styles.li}>Numbers</li>  
+                           <li className={styles.li}>Deuteronomy</li> 
+
+                            <li className={styles.li}>Joshua</li>  
+                           <li className={styles.li}>Judges</li>  
+                            <li className={styles.li}>Ruth</li>  
+                           <li className={styles.li}>1 Samuel</li>  
+                           <li className={styles.li}>2 Samuel</li>  
 
 
-           <li className={styles.li}>1 Kings</li>  
-       <li className={styles.li}>2 Kings</li>  
-        <li className={styles.li}>1 Chronicles</li>  
-       <li className={styles.li}>2 Chronicles</li>  
-       <li className={styles.li}>Ezra</li>  
-    </ul>
-  
-</div>     
+                               <li className={styles.li}>1 Kings</li>  
+                           <li className={styles.li}>2 Kings</li>  
+                            <li className={styles.li}>1 Chronicles</li>  
+                           <li className={styles.li}>2 Chronicles</li>  
+                           <li className={styles.li}>Ezra</li>  
+                        </ul>
+
+                    </div>     
     
-    <div className={styles.flex}>
-        <button className={styles.code}>
-                    <a   href="https://index-olive-two.vercel.app/">
-                          INDEX
-                          </a>
-                      </button>
-      </div>
-        <p className={styles.description}>
-          
-          <code className={styles.publisher}>&darr; Scroll &darr;</code>
-        </p>
+              <div className={styles.flex}>
+                  <button className={styles.code}>
+                              <a   href="https://index-olive-two.vercel.app/">
+                                    INDEX
+                                    </a>
+                                </button>
+                </div>
+                  <p className={styles.description}>
 
-        <p className={styles.h2}>
-        <span className={styles.span}> &darr; Romans 1:16 &rarr; </span>
-          For I am not ashamed of the  gospel, because it is the power
-          of God that brings salvation to everyone who believes. First the Jew & then the Gentile
-        </p>
-       
-   
+                    <code className={styles.publisher}>&darr; Scroll &darr;</code>
+                  </p>
 
-       <ul className={styles.ul}>
-       <li className={styles.li}>
-         <a href="https://acts-zeta.vercel.app">
-          
-          <code className={styles.books}>Acts</code></a> 
-          </li>
-        
-       <li  className={styles.li}>
-       <a href="https://romans-five.vercel.app/">
-       <code className={styles.books}>Romans</code>
-  </a>
-  </li>
-       
-         <li  className={styles.li}>
-         <a href="https://proverbs.vercel.app/">
-         <code className={styles.books}>Proverbs</code>
-         
-         </a>  
-         </li>
-         </ul>
-        <code className={styles.holy}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
+                  <p className={styles.h2}>
+                  <span className={styles.span}> &darr; Romans 1:16 &rarr; </span>
+                    For I am not ashamed of the  gospel, because it is the power
+                    of God that brings salvation to everyone who believes. First the Jew & then the Gentile
+                  </p>
+
+
+
       
-        
-        <div className={styles.grid}>
-        <a href="https://matthew-coral.vercel.app/" className={styles.card}>
-            <h2>Matthew &darr;</h2>
-            <p>Matthew is the most Jewish-centric of the four gospels. The apostle regularly invoked the writings of the Old Testament prophets...</p>
-          </a>
-          <a href="https://mark-alpha.vercel.app/" className={styles.card}>
-        
-            <h2>Mark &darr;</h2>
-            <p>The book of Mark, which stresses facts & actions, rather than themes or topics, is the most exciting account of the life of Christ among the Gospels. </p>
-           
-          </a>
-          
-       
-         
-         
-        
-          <a
-            href="https://luke-three.vercel.app/"
-            className={styles.card}
-          >
-            <h2>Luke &darr;</h2>
-            <p>
-            Lukes account of Jesus ministry divides into 3 parts:
-            events that occurred in & around Galilee, 
-             in Judea & Perea
-            & his final week in Jerusalem 
-            </p>
-          </a>
+                  <code className={styles.holy}> THE TRUE LIGHT WHO GIVES LIGHT TO EVERY MAN WAS COMING INTO THE WORLD. </code>
 
-          <a
-            href="https://john-zeta.vercel.app/"
-            className={styles.card}
-          >
-            <h2>John &darr;</h2>
-            <p>An eyewitness account of Jesus ministry, enriched by the authors understanding of Jewish traditions & knowledge of Palestine.</p>
-          </a>
-        
-        </div>
+
+               
        
         <p className={styles.description}> 
         <code className={styles.publisher}>
@@ -144,19 +88,6 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className={styles.footer}>
-  
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
