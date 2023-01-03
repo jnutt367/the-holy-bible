@@ -22,7 +22,7 @@
 }
 .transcribed {
    position: relative;
-   top: -25px;
+   top: -30px;
 }
 .index  {
   position: relative;
@@ -34,7 +34,7 @@
   list-style-type: none;
 }
 .li {
-  margin-left:-20px;
+  margin-left:-30px;
   width:100vw;
   grid-gaps: 10px;
   border: 1px solid black;
