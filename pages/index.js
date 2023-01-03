@@ -29,15 +29,15 @@ export default function Home() {
     <p className={styles.transcribed}>
       Transcribed by: Jason Daniel Nutt
     </p>
-    <div className={styles.index}>
-    <ul>
-      <li>Genesis</li>  
-       <li>Exodus</li>  
-       <li>Leviticus</li>  
-       <li>Numbers</li>  
-       <li>Deuteronomy</li>  
+   
+    <ul className={styles.index}>
+      <li className={styles.li}>Genesis</li>  
+       <li className={styles.li}>Exodus</li>  
+        <li className={styles.li}>Leviticus</li>  
+       <li className={styles.li}>Numbers</li>  
+       <li className={styles.li}>Deuteronomy</li>  
     </ul>
-    </div>
+  
 </div>     
   
      <div className={styles.flex}>
