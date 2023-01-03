@@ -30,9 +30,12 @@
   display: grid;
   grid-gaps: 10px;
   justify-content: space-around;
-  background-color: grey;
+  background-color: transparent;
+  
   list-style-type: none;
+  text-align: left;
 }
-.index li {
+.index .li {
   grid-gaps: 10px;
+  border: 1px black;
 }
