@@ -54,7 +54,7 @@ export default function Home() {
     </ul>
   
 </div>     
-  
+  /*
      <div className={styles.flex}>
         <button className={styles.code}>
                     <a   href="https://index-olive-two.vercel.app/">
