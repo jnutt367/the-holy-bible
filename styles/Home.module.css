@@ -26,7 +26,7 @@
 }
 .index  {
   position: relative;
-   top: -25px;
+   top: -225px;
   display: grid;
   grid-gaps: 10px;
   justify-content: space-around;
