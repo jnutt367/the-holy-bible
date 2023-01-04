@@ -47,21 +47,42 @@ export default function Home() {
                        <a href="https://acts-zeta.vercel.app/">  
                            <li className={styles.li}>Acts of the Apostles</li> 
                        </a>
+                       <a href="https://romans-five.vercel.app/">
                             <li className={styles.li}>Letter of Paul to the Romans</li>  
+                        </a>
+                        <a href="https://first-corinthians.vercel.app/">
                            <li className={styles.li}>I Corinthians</li>  
-                            <li className={styles.li}>II Corinthians</li>  
+                        </a>
+                        <a href="https://second-corinthians.vercel.app/">
+                            <li className={styles.li}>II Corinthians</li> 
+                        </a>
+                        <a href="https://galatians.vercel.app/">
                            <li className={styles.li}>Letter of Paul to the Galatians</li>  
+                        </a>
+                        <a href="https://ephesians.vercel.app/">
                            <li className={styles.li}>Letter of Paul to the Ephesians</li>  
-
-
+                        </a>
+                      
+                        <a href="https://phillipians.vercel.app/">
                                <li className={styles.li}>Letter of Paul to the Philippians</li>  
-                           <li className={styles.li}>2 Thessalonians</li>  
+                        </a>
+                         
+                        <a href="https://colossians.vercel.app/">
                             <li className={styles.li}>Letter of Paul to the Colossians</li>  
-                           <li className={styles.li}>I Thessalonians</li>  
+                        </a>
+                        <a href="https://first-thessalonians.vercel.app/">
+                           <li className={styles.li}>I Thessalonians</li> 
+                        </a>
+                        <a href="https://second-thessalonians.vercel.app/">
                            <li className={styles.li}>II Thessalonians</li>  
-                           
+                        </a>
+                        <a href="https://first-timothy.vercel.app/">
                              <li className={styles.li}>I Timothy</li>  
-                           <li className={styles.li}>II Timothy</li>  
+                        </a>
+                        <a href="https://second-timothy.vercel.app/">
+                           <li className={styles.li}>II Timothy</li> 
+                        </a>
+                     
                             <li className={styles.li}>Letter of Paul to Titus</li>  
                            <li className={styles.li}>Letter of Paul to Philemon</li>  
                            <li className={styles.li}>Letter to the Hebrews</li>  
