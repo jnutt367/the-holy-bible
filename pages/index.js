@@ -32,27 +32,46 @@ export default function Home() {
                          
                     
                         <ul className={styles.index}>
-                        <a href="https://waggin-rights.vercel.app/">  
+                        <a href="">  
                           <li className={styles.li}>The gospel of Matthew</li>  
                         </a>
                       
                            <li className={styles.li}>The gospel of Mark</li>  
                             <li className={styles.li}>The gospel of Luke</li>  
                            <li className={styles.li}>The gospel of John</li>  
-                           <li className={styles.li}>Acts</li> 
+                           <li className={styles.li}>Acts of the Apostles</li> 
 
-                            <li className={styles.li}>Romans</li>  
-                           <li className={styles.li}>1 Corinthians</li>  
-                            <li className={styles.li}>2 Corinthians</li>  
-                           <li className={styles.li}>Ephesians</li>  
-                           <li className={styles.li}>Philippians</li>  
+                            <li className={styles.li}>Letter of Paul to the Romans</li>  
+                           <li className={styles.li}>I Corinthians</li>  
+                            <li className={styles.li}>II Corinthians</li>  
+                           <li className={styles.li}>Letter of Paul to the Galatians</li>  
+                           <li className={styles.li}>Letter of Paul to the Ephesians</li>  
 
 
-                               <li className={styles.li}>1 Thessalonians</li>  
+                               <li className={styles.li}>Letter of Paul to the Philippians</li>  
                            <li className={styles.li}>2 Thessalonians</li>  
-                            <li className={styles.li}>James</li>  
-                           <li className={styles.li}>Jude</li>  
-                           <li className={styles.li}>1 Peter</li>  
+                            <li className={styles.li}>Letter of Paul to the Colossians</li>  
+                           <li className={styles.li}>I Thessalonians</li>  
+                           <li className={styles.li}>II Thessalonians</li>  
+                           
+                             <li className={styles.li}>I Timothy</li>  
+                           <li className={styles.li}>II Timothy</li>  
+                            <li className={styles.li}>Letter of Paul to Titus</li>  
+                           <li className={styles.li}>Letter of Paul to Philemon</li>  
+                           <li className={styles.li}>Letter to the Hebrews</li>  
+
+
+                               <li className={styles.li}>Letter of James</li>  
+                           <li className={styles.li}>I Peter</li>  
+                            <li className={styles.li}>II Peter</li>  
+                           <li className={styles.li}>I John</li>  
+                           <li className={styles.li}>II John</li>  
+                           
+                           <li className={styles.li}>III John</li>  
+                           <li className={styles.li}>Letter of Jude</li>  
+                            <li className={styles.li}>The Revelation to John</li>  
+                         
+                           
                         </ul>
                     </div>
                     
