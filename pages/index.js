@@ -30,6 +30,7 @@ export default function Home() {
                                 Transcribed by: Jason Daniel Nutt
                               </p>
                           </div>
+                      <div>
                         <ul className={styles.index}>
                         <a href="https://waggin-rights.vercel.app/">  
                           <li className={styles.li}>The gospel of Matthew</li>  
@@ -53,7 +54,7 @@ export default function Home() {
                            <li className={styles.li}>Jude</li>  
                            <li className={styles.li}>1 Peter</li>  
                         </ul>
-
+                    </div>
                     
     
       </main>
