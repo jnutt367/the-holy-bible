@@ -29,8 +29,8 @@ export default function Home() {
                               <p className={styles.transcribed}>
                                 Transcribed by: Jason Daniel Nutt
                               </p>
-                          </div>
-                      <div>
+                         
+                    
                         <ul className={styles.index}>
                         <a href="https://waggin-rights.vercel.app/">  
                           <li className={styles.li}>The gospel of Matthew</li>  
