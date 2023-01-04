@@ -32,15 +32,21 @@ export default function Home() {
                          
                     
                         <ul className={styles.index}>
-                        <a href="">  
+                      <a href="https://matthew-coral.vercel.app/">  
                           <li className={styles.li}>The gospel of Matthew</li>  
-                        </a>
-                      
-                           <li className={styles.li}>The gospel of Mark</li>  
-                            <li className={styles.li}>The gospel of Luke</li>  
-                           <li className={styles.li}>The gospel of John</li>  
+                      </a>
+                      <a href="https://mark-alpha.vercel.app/">  
+                           <li className={styles.li}>The gospel of Mark</li> 
+                      </a>
+                      <a href="https://luke-three.vercel.app/">  
+                            <li className={styles.li}>The gospel of Luke</li> 
+                       </a>
+                       <a href="https://john-zeta.vercel.app/">  
+                           <li className={styles.li}>The gospel of John</li> 
+                       </a>
+                       <a href="https://acts-zeta.vercel.app/">  
                            <li className={styles.li}>Acts of the Apostles</li> 
-
+                       </a>
                             <li className={styles.li}>Letter of Paul to the Romans</li>  
                            <li className={styles.li}>I Corinthians</li>  
                             <li className={styles.li}>II Corinthians</li>  
