@@ -32,26 +32,26 @@ export default function Home() {
                     <div>
                         <ul className={styles.index}>
                         <a href="https://waggin-rights.vercel.app/">  
-                          <li className={styles.li}>Genesis</li>  
+                          <li className={styles.li}>The gospel of Matthew</li>  
                         </a>
                       
-                           <li className={styles.li}>Exodus</li>  
-                            <li className={styles.li}>Leviticus</li>  
-                           <li className={styles.li}>Numbers</li>  
-                           <li className={styles.li}>Deuteronomy</li> 
+                           <li className={styles.li}>The gospel of Mark</li>  
+                            <li className={styles.li}>The gospel of Luke</li>  
+                           <li className={styles.li}>The gospel of John</li>  
+                           <li className={styles.li}>Acts</li> 
 
-                            <li className={styles.li}>Joshua</li>  
-                           <li className={styles.li}>Judges</li>  
-                            <li className={styles.li}>Ruth</li>  
-                           <li className={styles.li}>1 Samuel</li>  
-                           <li className={styles.li}>2 Samuel</li>  
+                            <li className={styles.li}>Romans</li>  
+                           <li className={styles.li}>1 Corinthians</li>  
+                            <li className={styles.li}>2 Corinthians</li>  
+                           <li className={styles.li}>Ephesians</li>  
+                           <li className={styles.li}>Philippians</li>  
 
 
-                               <li className={styles.li}>1 Kings</li>  
-                           <li className={styles.li}>2 Kings</li>  
-                            <li className={styles.li}>1 Chronicles</li>  
-                           <li className={styles.li}>2 Chronicles</li>  
-                           <li className={styles.li}>Ezra</li>  
+                               <li className={styles.li}>1 Thessalonians</li>  
+                           <li className={styles.li}>2 Thessalonians</li>  
+                            <li className={styles.li}>James</li>  
+                           <li className={styles.li}>Jude</li>  
+                           <li className={styles.li}>1 Peter</li>  
                         </ul>
 
                     
