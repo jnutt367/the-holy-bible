@@ -1,5 +1,7 @@
 .container {
   background-image:url(/cloud_lightning.webp);
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 .holy {
   font-family: Ariel, sans;
