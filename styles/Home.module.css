@@ -11,7 +11,7 @@
 .main {
   background-color: silver;
   position:relative;
-  top: -10px;
+  top: 10px;
 }
 .title {
   position: relative;
