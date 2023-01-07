@@ -5,7 +5,7 @@
   backgroud-color: silver;
   font-family: Ariel, sans;
   position: relative;
-   top: -17px;
+   top: -18px;
   font-size: 36px;
 }
 .main {
@@ -46,6 +46,7 @@
   list-style-type: none;
 }
 .li {
+  margin-left: -35px;
   width:100vw;
   grid-gaps: 10px;
   border: 1px solid grey;
