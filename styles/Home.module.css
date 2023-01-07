@@ -4,7 +4,7 @@
 .holy {
   font-family: Ariel, sans;
   position: relative;
-   top: -40px;
+   top: -10px;
   font-size: 52px;
 }
 .main {
@@ -12,7 +12,7 @@
 }
 .title {
   position: relative;
-  top: -90px;
+  top: -70px;
   margin-top: 0;
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
@@ -25,12 +25,15 @@
 }
 .transcribed {
    background-color: red;
+   position: relative;
+   top: -70px;
 }
 .new {
   position: relative;
   top: -15px;
   text-align: center;
-  color: white;
+  color: black;
+  text-shadow: 2px 2px grey;
 }
 .index  {
   position: relative;
