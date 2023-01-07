@@ -1,17 +1,16 @@
 .container {
   background-color: silver;
-  background-size:cover;
-  background-repeat: no-repeat;
+  height:100vh;
 }
 .holy {
   font-family: Ariel, sans;
   position: relative;
-   top: -30px;
+   top: -40px;
   font-size: 52px;
 }
 .title {
   position: relative;
-  top: -120px;
+  top: -110px;
   margin-top: 0;
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
