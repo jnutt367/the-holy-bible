@@ -18,6 +18,9 @@ export default function Home() {
                 <h1 className={styles.title}>
                     <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
                 </h1>
+             <p className={styles.transcribed}>
+                    Transcribed by: Jason Daniel Nutt
+             </p>
                           <div className={styles.hero}>
                              <Image 
                                 src="/gods-finger.jpg"
@@ -26,11 +29,11 @@ export default function Home() {
                                 width={2000}
                                 priority
                               />
-                              <p className={styles.transcribed}>
-                                Transcribed by: Jason Daniel Nutt
-                              </p>
+                             
                          
-                    
+                    <p className={styles.new}>
+                         A NEW TESTAMENT        
+                    </p>
                         <ul className={styles.index}>
                       <a href="https://matthew-coral.vercel.app/">  
                           <li className={styles.li}>The gospel of Matthew</li>  
