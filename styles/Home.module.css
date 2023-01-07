@@ -25,9 +25,8 @@
 }
 .transcribed {
    position: relative;
-   top: -200px;
+   top: -150px;
    font-size: 12px;
-   left: 200px;
 }
 .new {
   position: relative;
