@@ -1,5 +1,5 @@
 .container {
-  background-image:url(/cloud_lightning.webp);
+  background-color: silver;
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -11,7 +11,7 @@
 }
 .title {
   position: relative;
-  top: -100px;
+  top: -120px;
   margin-top: 0;
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
