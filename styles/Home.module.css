@@ -24,9 +24,10 @@
   top: -170px;
 }
 .transcribed {
-   background-color: red;
    position: relative;
    top: -200px;
+   font-size:5px;
+   left:-100px ;
 }
 .new {
   position: relative;
