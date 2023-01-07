@@ -17,7 +17,7 @@
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
   font-size: 64px;
-  margin-bottom: 4rem;
+  margin-bottom: 3.8rem;
 }
 .hero {
   position:relative;
@@ -27,14 +27,14 @@
    position: relative;
    top: -200px;
    font-size: 12px;
-   left: 100px;
+   left: 200px;
 }
 .new {
   position: relative;
   top: -15px;
   text-align: center;
   color: black;
-  text-shadow: 2px 2px grey;
+  text-shadow: 1px 1px grey;
 }
 .index  {
   position: relative;
