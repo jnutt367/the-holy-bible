@@ -12,7 +12,7 @@
 }
 .title {
   position: relative;
-  top: -110px;
+  top: -90px;
   margin-top: 0;
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
@@ -24,8 +24,13 @@
   top: -170px;
 }
 .transcribed {
-   position: relative;
-   top: -20px;
+   background-color: red;
+}
+.new {
+  position: relative;
+  top: -15px;
+  text-align: center;
+  color: white;
 }
 .index  {
   position: relative;
