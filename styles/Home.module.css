@@ -17,7 +17,7 @@
   font-family: Ariel, sans;
   text-shadow: 2px 2px grey;
   font-size: 64px;
-  margin-bottom: 4.2rem;
+  margin-bottom: 4.4rem;
 }
 .hero {
   position:relative;
@@ -25,7 +25,7 @@
 }
 .transcribed {
    position: relative;
-   top: -150px;
+   top: -155px;
    font-size: 12px;
 }
 .new {
