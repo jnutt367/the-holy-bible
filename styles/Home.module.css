@@ -1,12 +1,14 @@
 .container {
   background-color: silver;
-  height:100vh;
 }
 .holy {
   font-family: Ariel, sans;
   position: relative;
    top: -40px;
   font-size: 52px;
+}
+.main {
+  background-color: silver;
 }
 .title {
   position: relative;
