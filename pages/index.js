@@ -23,7 +23,7 @@ export default function Home() {
              </p>
                           <div className={styles.hero}>
                              <Image 
-                                src="/hand-hold-stack-books.webp"
+                                src="/gods-finger.jpg"
                                 alt="Picture of the Gods finger"
                                 height={900}
                                 width={2000}
