@@ -3,7 +3,7 @@
 }
 .holy {
   backgroud-color: silver;
-  font-family: Ariel, sans;
+  font-family: Ariel, sans, serif, sans-serif, cursive, fantasy;
   position: relative;
    top: -18px;
   font-size: 36px;
@@ -17,7 +17,7 @@
   position: relative;
   top: -70px;
   margin-top: 0;
-  font-family: Ariel, sans;
+  font-family: Ariel, sans, , serif, sans-serif, cursive, fantasy;
   text-shadow: 2px 2px grey;
   font-size: 64px;
   margin-bottom: 4.4rem;
