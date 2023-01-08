@@ -65,8 +65,4 @@
   background-color: grey;
   cursor:pointer;
 }
-@media (max-width:768px) {
-  .hero {
-      height: 700px;
-  }
-}
+
