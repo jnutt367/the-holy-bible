@@ -25,6 +25,7 @@
 .hero {
   position:relative;
   top: -170px;
+   backgroud-color: silver;
 }
 .transcribed {
    position: relative;
@@ -39,6 +40,7 @@
   text-shadow: 1px 1px grey;
 }
 .index  {
+  backgroud-color: silver;
   position: relative;
    top: -25px;
   display: grid;
@@ -48,6 +50,7 @@
   list-style-type: none;
 }
 .li {
+  backgroud-color: silver;
   margin-left: -38px;
   width:100vw;
   grid-gaps: 10px;
