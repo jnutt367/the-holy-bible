@@ -16,7 +16,7 @@ export default function Home() {
     
        <h2 className={styles.holy}>The Holy</h2>
                 <h1 className={styles.title}>
-                    <a href="https://en.wikipedia.org/wiki/Bible">Bible</a>
+                    <a href="https://en.wikipedia.org/wiki/Bible" target="_blank">Bible</a>
                 </h1>
              <p className={styles.transcribed}>
                     Transcribed by: Jason Daniel Nutt
@@ -35,54 +35,54 @@ export default function Home() {
                          A NEW TESTAMENT        
                     </p>
                         <ul className={styles.index}>
-                      <a href="https://matthew-coral.vercel.app/">  
+                      <a href="https://matthew-coral.vercel.app/" target="_blank">  
                           <li className={styles.li}>The gospel of Matthew</li>  
                       </a>
-                      <a href="https://mark-alpha.vercel.app/">  
+                      <a href="https://mark-alpha.vercel.app/" target="_blank">  
                            <li className={styles.li}>The gospel of Mark</li> 
                       </a>
-                      <a href="https://luke-three.vercel.app/">  
+                      <a href="https://luke-three.vercel.app/" target="_blank">  
                             <li className={styles.li}>The gospel of Luke</li> 
                        </a>
-                       <a href="https://john-zeta.vercel.app/">  
+                       <a href="https://john-zeta.vercel.app/" target="_blank">  
                            <li className={styles.li}>The gospel of John</li> 
                        </a>
-                       <a href="https://acts-zeta.vercel.app/">  
+                       <a href="https://acts-zeta.vercel.app/" target="_blank">  
                            <li className={styles.li}>Acts of the Apostles</li> 
                        </a>
-                       <a href="https://romans-five.vercel.app/">
+                       <a href="https://romans-five.vercel.app/" target="_blank">
                             <li className={styles.li}>Letter of Paul to the Romans</li>  
                         </a>
-                        <a href="https://first-corinthians.vercel.app/">
+                        <a href="https://first-corinthians.vercel.app/" target="_blank">
                            <li className={styles.li}>I Corinthians</li>  
                         </a>
-                        <a href="https://second-corinthians.vercel.app/">
+                        <a href="https://second-corinthians.vercel.app/" target="_blank">
                             <li className={styles.li}>II Corinthians</li> 
                         </a>
-                        <a href="https://galatians.vercel.app/">
+                        <a href="https://galatians.vercel.app/" target="_blank">
                            <li className={styles.li}>Letter of Paul to the Galatians</li>  
                         </a>
-                        <a href="https://ephesians.vercel.app/">
+                        <a href="https://ephesians.vercel.app/" target="_blank">
                            <li className={styles.li}>Letter of Paul to the Ephesians</li>  
                         </a>
                       
-                        <a href="https://phillipians.vercel.app/">
+                        <a href="https://phillipians.vercel.app/" target="_blank">
                                <li className={styles.li}>Letter of Paul to the Philippians</li>  
                         </a>
                          
-                        <a href="https://colossians.vercel.app/">
+                        <a href="https://colossians.vercel.app/" target="_blank">
                             <li className={styles.li}>Letter of Paul to the Colossians</li>  
                         </a>
-                        <a href="https://first-thessalonians.vercel.app/">
+                        <a href="https://first-thessalonians.vercel.app/" target="_blank">
                            <li className={styles.li}>I Thessalonians</li> 
                         </a>
-                        <a href="https://second-thessalonians.vercel.app/">
+                        <a href="https://second-thessalonians.vercel.app/" target="_blank">
                            <li className={styles.li}>II Thessalonians</li>  
                         </a>
-                        <a href="https://first-timothy.vercel.app/">
+                        <a href="https://first-timothy.vercel.app/" target="_blank">
                              <li className={styles.li}>I Timothy</li>  
                         </a>
-                        <a href="https://second-timothy.vercel.app/">
+                        <a href="https://second-timothy.vercel.app/" target="_blank">
                            <li className={styles.li}>II Timothy</li> 
                         </a>
                      
