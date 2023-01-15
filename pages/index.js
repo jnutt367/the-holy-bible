@@ -104,7 +104,11 @@ export default function Home() {
                            
                         </ul>
                     </div>
-                    
+                      <p  className={styles.description}>
+                      <code className={styles.publisher}>
+                    Photo by Jessica Lewis Creative: https://www.pexels.com/photo/black-mug-with-religious-text-from-holy-bible-4200823/
+                       </code>
+                      </p>
     
       </main>
 
