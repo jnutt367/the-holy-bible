@@ -23,7 +23,7 @@ export default function Home() {
              </p>
                           <div className={styles.hero}>
                              <Image 
-                                src="/new-bible.jpg"
+                                src="/New-Testament-1024x683.jpg"
                                 alt="Picture of the Gods finger"
                                 height={900}
                                 width={2000}
