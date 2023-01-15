@@ -23,7 +23,7 @@ export default function Home() {
              </p>
                           <div className={styles.hero}>
                              <Image 
-                                src="/New-Testament-1024x683.jpg"
+                                src="/pexels-photo-4200823.webp"
                                 alt="Picture of the Gods finger"
                                 height={900}
                                 width={2000}
@@ -32,7 +32,7 @@ export default function Home() {
                              
                          
                     <p className={styles.new}>
-                         A NEW TESTAMENT        
+                         THE NEW TESTAMENT        
                     </p>
                         <ul className={styles.index}>
                       <a href="https://matthew-coral.vercel.app/" target="_blank">  
