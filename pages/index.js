@@ -23,7 +23,7 @@ export default function Home() {
              </p>
                           <div className={styles.hero}>
                              <Image 
-                                src="/pexels-photo-4200823.webp"
+                                src="/trust.webp"
                                 alt="Picture of the Gods finger"
                                 height={900}
                                 width={2000}
