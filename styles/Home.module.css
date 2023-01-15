@@ -69,6 +69,7 @@
   display: grid;
 }
 .items {
+  padding-left: 30px;
   align-items: center;
   justify-content: space-around;
   grid-template-columns: 2fr 2fr;
