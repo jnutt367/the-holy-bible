@@ -104,17 +104,17 @@ export default function Home() {
                            
                         </ul>
               <div  className={styles.footer}>
-                <p>
-                   <a href="https://www.pexels.com/photo/black-mug-with-religious-text-from-holy-bible-4200823/" Photo by Jessica Lewis Creative 
+                <p className={styles.footer-items}>
+                   <a href="https://www.pexels.com/photo/black-mug-with-religious-text-from-holy-bible-4200823/"> Photo by Jessica Lewis Creative 
                   </a>
                 </p>
-                 <p>
-                    <a href="https://www.facebook.com/jacob.daleandro.7" Design inspired by Jake Daleandro
-                    </a>
+                 <p className={styles.footer-items}>
+                    <a href="https://www.facebook.com/jacob.daleandro.7"> Design inspired by Jake Daleandro
+                   </a>
                  
                  </p>
               </div>
-                    </div>
+          </div>
                     
     
       </main>
