@@ -14,7 +14,7 @@ export default function Home() {
      
       <main className={styles.main}>
     
-       <h2 className={styles.holy}>The HOLY</h2>
+       <h2 className={styles.holy}>THE HOLY</h2>
                 <h1 className={styles.title}>
                     <a href="https://en.wikipedia.org/wiki/Bible" target="_blank">BIBLE</a>
                 </h1>
