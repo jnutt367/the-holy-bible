@@ -65,4 +65,6 @@
   background-color: grey;
   cursor:pointer;
 }
-
+.footer {
+  display: grid;
+}
