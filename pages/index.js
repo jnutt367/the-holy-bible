@@ -37,8 +37,8 @@ export default function Home() {
                     </p>
                       
                         <ul className={styles.index}>
-                           <a href=" money-check-heart-shape-concept-logo-design-cash-icon-symbol-design-good-payment-logo-template-free-vector.webp" target="_blank">  
-                          <li className={styles.li}>The gospel of Matthew</li>  
+                           <a href="https://gofund.me/a2b590af" target="_blank">  
+                          <li className={styles.li}>Help Fund This Bible</li>  
                       </a>
                          
                       <a href="https://matthew-coral.vercel.app/" target="_blank">  
@@ -110,12 +110,11 @@ export default function Home() {
                            
                         </ul>
               <div  className={styles.footer}>
-                <p className={styles.items}>
-                   <a href="https://www.pexels.com/photo/black-mug-with-religious-text-from-holy-bible-4200823/"> Photo by Jessica Lewis Creative 
-                  </a>
-                </p>
+                   <p className={styles.items}>
+                    <a href="https://www.facebook.com/jason.nutt.1481"> Coded, Published & Deployed by Jason D Nutt
+                   </a>
                  <p className={styles.items}>
-                    <a href="https://www.facebook.com/jacob.daleandro.7"> Design inspired by Jake Daleandro
+                    <a href="https://www.facebook.com/jacob.daleandro.7"> Design inspired by Jake Daleandro & Brian Nutt
                    </a>
                  
                  </p>
