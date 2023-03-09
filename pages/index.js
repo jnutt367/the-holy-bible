@@ -35,12 +35,12 @@ export default function Home() {
                     <p className={styles.new}>
                          THE NEW TESTAMENT        
                     </p>
-                       <a href="https://gofund.me/a2b590af" target="_blank">  
-                          <li className={styles.li}>Help Fund This Bible</li>  
-                      </a>
+                     
                          
                         <ul className={styles.index}>
-                          
+                            <a href="https://gofund.me/a2b590af" target="_blank">  
+                          <li className={styles.li}>Help Fund This Bible</li>  
+                      </a>
                       <a href="https://matthew-coral.vercel.app/" target="_blank">  
                           <li className={styles.li}>The gospel of Matthew</li>  
                       </a>
@@ -111,8 +111,9 @@ export default function Home() {
                         </ul>
               <div  className={styles.footer}>
                    <p className={styles.items}>
-                    <a href="https://www.facebook.com/jason.nutt.1481"> Coded, Published & Deployed by Jason D Nutt
+                    <a href="https://www.facebook.com/jason.nutt.1481"> Coded, Published & Deployed by Jason Nutt
                    </a>
+                  </p>
                  <p className={styles.items}>
                     <a href="https://www.facebook.com/jacob.daleandro.7"> Design inspired by Jake Daleandro & Brian Nutt
                    </a>
