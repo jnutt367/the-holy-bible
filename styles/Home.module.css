@@ -41,6 +41,10 @@
   color: black;
   text-shadow: 1px 1px grey;
 }
+.fund {
+    color: white;
+    font-family: cursive, Fantasy;
+}
 .index  {
   backgroud-color: silver;
   position: relative;
