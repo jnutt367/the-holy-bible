@@ -36,7 +36,9 @@ export default function Home() {
                          THE NEW TESTAMENT        
                     </p>
                      
-                         
+                           <a href="https://gofund.me/a2b590af" target="_blank">  
+                          <p className={styles.fund}>Help Fund This Bible</p>  
+                      </a>
                         <ul className={styles.index}>
                           
                       <a href="https://matthew-coral.vercel.app/" target="_blank">  
