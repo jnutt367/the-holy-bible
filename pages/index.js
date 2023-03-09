@@ -35,12 +35,12 @@ export default function Home() {
                     <p className={styles.new}>
                          THE NEW TESTAMENT        
                     </p>
-                      
-                        <ul className={styles.index}>
-                           <a href="https://gofund.me/a2b590af" target="_blank">  
+                       <a href="https://gofund.me/a2b590af" target="_blank">  
                           <li className={styles.li}>Help Fund This Bible</li>  
                       </a>
                          
+                        <ul className={styles.index}>
+                          
                       <a href="https://matthew-coral.vercel.app/" target="_blank">  
                           <li className={styles.li}>The gospel of Matthew</li>  
                       </a>
